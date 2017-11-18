@@ -1,4 +1,4 @@
-package solution;
+package skeleton;
 
 import util.Percept;
 import util.QLearner;
