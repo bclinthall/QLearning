@@ -2,7 +2,7 @@ package util;
 
 import java.util.Scanner;
 
-import solution.MyQLearner;
+import skeleton.MyQLearner;
 
 /**
  * The game class uses an MDP to explore a GridWorld.

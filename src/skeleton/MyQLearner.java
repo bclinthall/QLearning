@@ -3,7 +3,7 @@ package skeleton;
 import util.Percept;
 import util.QLearner;
 import util.State;
-import solution.MyState;
+import skeleton.MyState;
 import java.util.Map;
 import java.util.HashMap;
 
