@@ -39,11 +39,28 @@ public class MyQLearner extends QLearner
         q = new MyHashMap<>(Double.valueOf(0));
         nsa = new Nsa();
     }
+    
+	private String chooseAction(State current){
+		double maxF = Double.NEGATIVE_INFINITY;
+		String optAction = "";
+		for (String action : current.actions()){
+			double thisF = explorationFunction(current, action);
+			if (thisF > maxF){
+    			maxF = thisF;
+    			optAction = action;
+			}
+		}
+		return optAction;
+	}
 
     @Override
     protected double explorationFunction(State state, String action)
     {
-        return Double.NEGATIVE_INFINITY;
+        if (nsa.get(state, action) < 100){
+            return Double.POSITIVE_INFINITY;
+        } else {
+            return q.get(state, action);
+        }
     }
 
 	/**
@@ -72,13 +89,22 @@ public class MyQLearner extends QLearner
     public String play(Percept percept)
     {
         State current = new MyState(percept);
+        
         if (s != null) {
+            if (s.isTerminal()){
+                q.put(s, "", percept.reward());
+            }
 			int newNsa = nsa.increment(s, a);
-            double newQ = percept.reward() + percept.gamma() * maxActionValue(current) - q.get(s, a);
-            
+            double newQ = percept.gamma() * maxActionValue(current) - q.get(s, a);
+            newQ += percept.reward();
+            newQ *= nsa.getNormalized(s, a);
+            newQ += q.get(s, a);
+            q.put(s, a, newQ);
         }
-
-        return "N";
+		s = current;
+		r = percept.reward();
+		a = chooseAction(current);
+        return a;
     }
 
 }
@@ -94,13 +120,17 @@ class MyHashMap<V> extends HashMap<String, V>{
     public void put(State state, String action, V value){
 		super.put(makeKey(state, action), value);
     }
-	public V get(State state, String action) {
-		String k = makeKey(state, action);
+    @Override
+    public V get(Object k){
 		if (containsKey(k)){
     		return super.get(k);
-		} else {
+		}else{
     		return defaultValue;
 		}
+    }
+	public V get(State state, String action) {
+		String k = makeKey(state, action);
+		return get(k);
 	}
 }
 class Nsa extends MyHashMap<Integer>{
@@ -115,7 +145,7 @@ class Nsa extends MyHashMap<Integer>{
 		super.put(k, newFreq);
 		return newFreq;
 	}
-	public int getTotal(){
-    	return total;
+	public double getNormalized(State s, String a){
+		return (double)super.get(s, a)/(double)total;
 	}
 }
