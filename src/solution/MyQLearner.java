@@ -3,6 +3,9 @@ package solution;
 import util.Percept;
 import util.QLearner;
 import util.State;
+import solution.MyState;
+import java.util.Map;
+import java.util.HashMap;
 
 /**
  * An agent that uses value iteration to play the game.
@@ -15,9 +18,11 @@ public class MyQLearner extends QLearner
 {
     private static final boolean DEBUG = false;
     private static final double NE = 100.0;
-    private State s;
-    private String a;
-    private double r;
+    private State s;  // previous state
+    private String a; // previous action
+    private double r; // previous reward
+	private MyHashMap<Double> q;
+	private Nsa nsa;
 
     /**
      * The constructor takes the name.
@@ -31,6 +36,8 @@ public class MyQLearner extends QLearner
         s = null;
         a = null;
         r = Double.NEGATIVE_INFINITY;
+        q = new MyHashMap<>(Double.valueOf(0));
+        nsa = new Nsa();
     }
 
     @Override
@@ -39,6 +46,22 @@ public class MyQLearner extends QLearner
         return Double.NEGATIVE_INFINITY;
     }
 
+	/**
+	 * Calculates the maximum action value
+	 * @param currentState
+	 * 		  the current state
+	 * @return the highest Q[currentState, action] for any available action.
+	 */
+    public double maxActionValue(State currentState){
+        double maxVal = Double.NEGATIVE_INFINITY;
+		for (String action : currentState.actions()){
+			double actionVal = q.get(currentState, action);
+			if (actionVal > maxVal){
+    			maxVal = actionVal;
+			}
+		}
+		return maxVal;
+    }
     /**
      * Plays the game using a Q-Learning agent.
      * 
@@ -48,7 +71,51 @@ public class MyQLearner extends QLearner
      */
     public String play(Percept percept)
     {
+        State current = new MyState(percept);
+        if (s != null) {
+			int newNsa = nsa.increment(s, a);
+            double newQ = percept.reward() + percept.gamma() * maxActionValue(current) - q.get(s, a);
+            
+        }
+
         return "N";
     }
 
+}
+class MyHashMap<V> extends HashMap<String, V>{
+    protected V defaultValue;
+	public MyHashMap(V defaultValue){
+    	this.defaultValue = defaultValue;
+	}
+
+	public String makeKey(State state, String action){
+    	return state + action;
+	}
+    public void put(State state, String action, V value){
+		super.put(makeKey(state, action), value);
+    }
+	public V get(State state, String action) {
+		String k = makeKey(state, action);
+		if (containsKey(k)){
+    		return super.get(k);
+		} else {
+    		return defaultValue;
+		}
+	}
+}
+class Nsa extends MyHashMap<Integer>{
+	private int total = 0;
+	public Nsa(){
+		super(0);
+	}
+	public int increment(State s, String a){
+		total++;
+		String k = makeKey(s, a);
+		int newFreq = super.get(k) + 1;
+		super.put(k, newFreq);
+		return newFreq;
+	}
+	public int getTotal(){
+    	return total;
+	}
 }
