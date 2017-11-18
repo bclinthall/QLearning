@@ -1,5 +1,5 @@
 package util;
-
+import java.util.List;
 /**
  * The abstract State class.
  * 
@@ -10,6 +10,7 @@ package util;
 public abstract class State
 {
     protected boolean terminal;
+    protected List<String> actions;
 
     /**
      * Constructor sets the terminal state.
@@ -20,6 +21,7 @@ public abstract class State
     public State(Percept p)
     {
         terminal = p.current().isTerminal();
+        actions = p.actions();
     }
 
     /**
@@ -28,6 +30,14 @@ public abstract class State
     public boolean isTerminal()
     {
         return terminal;
+    }
+
+    /**
+     * @return the possible actions.
+     */
+    public List<String> actions()
+    {
+        return actions;
     }
 
     /*

@@ -16,7 +16,7 @@ public class Percept
     private List<String> actions;
     private double gamma;
     private double score;
-
+	private double reward;
     /**
      * Constructor for a percept.
      * 
@@ -32,6 +32,7 @@ public class Percept
         actions = mdp.getActions();
         gamma = mdp.getGamma();
         this.score = score;
+        this.reward = current.reward();
         neighborhood = new GridCell[NEIGHBORHOOD_SIZE][NEIGHBORHOOD_SIZE];
 
         String name = current.name();
@@ -93,5 +94,12 @@ public class Percept
     public double score()
     {
         return score;
+    }
+    /**
+     * @return the reward for this state.
+     */
+    public double reward()
+    {
+        return reward;
     }
 }
