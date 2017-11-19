@@ -4,8 +4,7 @@ import util.Percept;
 import util.QLearner;
 import util.State;
 import skeleton.MyState;
-import java.util.Map;
-import java.util.HashMap;
+import java.util.List;
 
 /**
  * An agent that uses value iteration to play the game.
@@ -21,8 +20,6 @@ public class MyQLearner extends QLearner
     private State s;  // previous state
     private String a; // previous action
     private double r; // previous reward
-	private MyHashMap<Double> q;
-	private Nsa nsa;
 
     /**
      * The constructor takes the name.
@@ -36,8 +33,6 @@ public class MyQLearner extends QLearner
         s = null;
         a = null;
         r = Double.NEGATIVE_INFINITY;
-        q = new MyHashMap<>(Double.valueOf(0));
-        nsa = new Nsa();
     }
 
     /*
@@ -60,29 +55,22 @@ public class MyQLearner extends QLearner
     @Override
     protected double explorationFunction(State state, String action)
     {
-        if (nsa.get(state, action) < 100){
+        if (value(getN(), state, action) < 100.0){
             return Double.POSITIVE_INFINITY;
         } else {
-            return q.get(state, action);
+			return value(getQ(), state, action);
+            //return q.get(state, action);
         }
     }
-
-	/**
-	 * Calculates the maximum action value
-	 * @param currentState
-	 * 		  the current state
-	 * @return the highest Q[currentState, action] for any available action.
-	 */
-    public double maxActionValue(State currentState){
-        double maxVal = Double.NEGATIVE_INFINITY;
-		for (String action : currentState.actions()){
-			double actionVal = q.get(currentState, action);
-			if (actionVal > maxVal){
-    			maxVal = actionVal;
-			}
+	public double alpha(State current, List<String> actions){
+		double visits = 0.0;
+		for (String action : actions){
+    		visits += value(getN(), s, action);
 		}
-		return maxVal;
-    }
+		
+		return 1.0 / (visits );
+	}
+
     /**
      * Plays the game using a Q-Learning agent.
      * 
@@ -93,17 +81,19 @@ public class MyQLearner extends QLearner
     public String play(Percept percept)
     {
         State current = new MyState(percept);
-        
+        List<String> actions = current.actions();
         if (s != null) {
             if (s.isTerminal()){
-                q.put(s, "", percept.reward());
+                putValue(getQ(), s, "", percept.reward());
+                //q.put(s, "", percept.reward());
             }
-			int newNsa = nsa.increment(s, a);
-            double newQ = percept.gamma() * maxActionValue(current) - q.get(s, a);
+			addValue(getN(), s, a, 1.0);
+			//int newNsa x= nsa.increment(s, a);
+            double newQ = percept.gamma() * maxValue(current, actions) - value(getQ(), s, a);
             newQ += percept.reward();
-            newQ *= nsa.getNormalized(s, a);
-            newQ += q.get(s, a);
-            q.put(s, a, newQ);
+            newQ *= value(getN(), s, a) * alpha(s, actions);
+            newQ += value(getQ(), s, a);
+            putValue(getQ(), s, a, newQ);
         }
 		s = current;
 		r = percept.reward();
@@ -111,45 +101,4 @@ public class MyQLearner extends QLearner
         return a;
     }
 
-}
-class MyHashMap<V> extends HashMap<String, V>{
-    protected V defaultValue;
-	public MyHashMap(V defaultValue){
-    	this.defaultValue = defaultValue;
-	}
-
-	public String makeKey(State state, String action){
-    	return state + action;
-	}
-    public void put(State state, String action, V value){
-		super.put(makeKey(state, action), value);
-    }
-    @Override
-    public V get(Object k){
-		if (containsKey(k)){
-    		return super.get(k);
-		}else{
-    		return defaultValue;
-		}
-    }
-	public V get(State state, String action) {
-		String k = makeKey(state, action);
-		return get(k);
-	}
-}
-class Nsa extends MyHashMap<Integer>{
-	private int total = 0;
-	public Nsa(){
-		super(0);
-	}
-	public int increment(State s, String a){
-		total++;
-		String k = makeKey(s, a);
-		int newFreq = super.get(k) + 1;
-		super.put(k, newFreq);
-		return newFreq;
-	}
-	public double getNormalized(State s, String a){
-		return (double)super.get(s, a)/(double)total;
-	}
 }

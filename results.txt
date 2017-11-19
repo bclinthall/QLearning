@@ -1,0 +1,294 @@
+0.985481918809283
+0.007259040595358479
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |    100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |   -100|       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   XXXX|       |       |       |   -100|       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |   -100|       |       |       |       |       |       |       |   -100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   -100|   -100|       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |   -100|       |       |   -100|       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |   -100|       |       |   -100|       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|    :) |       |       |       |       |       |       |   XXXX|       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+
+			1.0%: Recent Average Score: -139.32
+			2.0%: Recent Average Score: -50.02
+			3.0%: Recent Average Score: -20.40
+			4.0%: Recent Average Score: -4.92
+			5.0%: Recent Average Score: 3.99
+			6.0%: Recent Average Score: 10.15
+			7.0%: Recent Average Score: 14.23
+			8.0%: Recent Average Score: 17.52
+			9.0%: Recent Average Score: 20.19
+			10.0%: Recent Average Score: 22.27
+			11.0%: Recent Average Score: 23.79
+			12.0%: Recent Average Score: 25.15
+			13.0%: Recent Average Score: 26.32
+			14.0%: Recent Average Score: 27.36
+			15.0%: Recent Average Score: 28.20
+			16.0%: Recent Average Score: 28.93
+			17.0%: Recent Average Score: 29.55
+			18.0%: Recent Average Score: 30.15
+			19.0%: Recent Average Score: 30.70
+			20.0%: Recent Average Score: 31.16
+			21.0%: Recent Average Score: 31.53
+			22.0%: Recent Average Score: 31.91
+			23.0%: Recent Average Score: 32.28
+			24.0%: Recent Average Score: 32.61
+			25.0%: Recent Average Score: 32.92
+			26.0%: Recent Average Score: 33.20
+			27.0%: Recent Average Score: 33.48
+			28.0%: Recent Average Score: 33.71
+			29.0%: Recent Average Score: 33.91
+			30.0%: Recent Average Score: 34.11
+			31.0%: Recent Average Score: 34.23
+			32.0%: Recent Average Score: 34.40
+			33.0%: Recent Average Score: 34.57
+			34.0%: Recent Average Score: 34.75
+			35.0%: Recent Average Score: 34.88
+			36.0%: Recent Average Score: 35.02
+			37.0%: Recent Average Score: 35.18
+			38.0%: Recent Average Score: 35.30
+			39.0%: Recent Average Score: 35.45
+			40.0%: Recent Average Score: 35.56
+			41.0%: Recent Average Score: 35.67
+			42.0%: Recent Average Score: 35.80
+			43.0%: Recent Average Score: 35.89
+			44.0%: Recent Average Score: 35.99
+			45.0%: Recent Average Score: 36.09
+			46.0%: Recent Average Score: 36.17
+			47.0%: Recent Average Score: 36.28
+			48.0%: Recent Average Score: 36.35
+			49.0%: Recent Average Score: 36.42
+			50.0%: Recent Average Score: 36.48
+			51.0%: Recent Average Score: 36.58
+			52.0%: Recent Average Score: 36.65
+			53.0%: Recent Average Score: 36.73
+			54.0%: Recent Average Score: 36.79
+			55.0%: Recent Average Score: 36.86
+			56.0%: Recent Average Score: 36.93
+			57.0%: Recent Average Score: 36.98
+			58.0%: Recent Average Score: 37.02
+			59.0%: Recent Average Score: 37.08
+			60.0%: Recent Average Score: 37.13
+			61.0%: Recent Average Score: 37.18
+			62.0%: Recent Average Score: 37.24
+			63.0%: Recent Average Score: 37.28
+			64.0%: Recent Average Score: 37.33
+			65.0%: Recent Average Score: 37.37
+			66.0%: Recent Average Score: 37.40
+			67.0%: Recent Average Score: 37.42
+			68.0%: Recent Average Score: 37.45
+			69.0%: Recent Average Score: 37.48
+			70.0%: Recent Average Score: 37.52
+			71.0%: Recent Average Score: 37.53
+			72.0%: Recent Average Score: 37.56
+			73.0%: Recent Average Score: 37.60
+			74.0%: Recent Average Score: 37.63
+			75.0%: Recent Average Score: 37.65
+			76.0%: Recent Average Score: 37.70
+			77.0%: Recent Average Score: 37.72
+			78.0%: Recent Average Score: 37.76
+			79.0%: Recent Average Score: 37.79
+			80.0%: Recent Average Score: 37.83
+			81.0%: Recent Average Score: 37.86
+			82.0%: Recent Average Score: 37.89
+			83.0%: Recent Average Score: 37.93
+			84.0%: Recent Average Score: 37.94
+			85.0%: Recent Average Score: 37.99
+			86.0%: Recent Average Score: 38.01
+			87.0%: Recent Average Score: 38.03
+			88.0%: Recent Average Score: 38.06
+			89.0%: Recent Average Score: 38.09
+			90.0%: Recent Average Score: 38.13
+			91.0%: Recent Average Score: 38.15
+			92.0%: Recent Average Score: 38.18
+			93.0%: Recent Average Score: 38.22
+			94.0%: Recent Average Score: 38.22
+			95.0%: Recent Average Score: 38.25
+			96.0%: Recent Average Score: 38.27
+			97.0%: Recent Average Score: 38.30
+			98.0%: Recent Average Score: 38.32
+			99.0%: Recent Average Score: 38.33
+			100.0%: Recent Average Score: 38.34
+ , ,X, , ,N: -96.91 / 341
+ , ,X, , ,E: -97.78 / 406
+ , ,X, , ,S: -96.27 / 248
+ , ,X, , ,W: -96.20 / 183
+Take action W
+?| |?
+ | | 
+?|X|?
+-, , ,X, ,N: -157.75 / 100
+-, , ,X, ,E: 128323.45 / 234
+-, , ,X, ,S: -95.67 / 137
+-, , ,X, ,W: -95.28 / 163
+Take action E
+?|-|?
+X| | 
+?| |?
+ ,-, ,X, ,N: 383930.31 / 101134
+ ,-, ,X, ,E: -120.23 / 100
+ ,-, ,X, ,S: -105.54 / 206
+ ,-, ,X, ,W: -105.70 / 229
+Take action N
+?| |?
+X| |-
+?| |?
+ ,X, , , ,N: -71.66 / 237
+ ,X, , , ,E: -71.90 / 185
+ ,X, , , ,S: -71.62 / 226
+ ,X, , , ,W: -72.22 / 148
+Take action S
+?| |?
+ | |X
+?| |?
+-,-,-,-,-,N: 386365.17 / 3146
+-,-,-,-,-,E: -89.51 / 215
+-,-,-,-,-,S: -90.51 / 208
+-,-,-,-,-,W: -89.85 / 236
+Take action N
+?|-|?
+-|-|-
+?|-|?
+X, , ,X, ,N: -66.20 / 111
+X, , ,X, ,E: -66.82 / 111
+X, , ,X, ,S: -66.58 / 106
+X, , ,X, ,W: -66.72 / 114
+Take action N
+?|X|?
+X| | 
+?| |?
+ , , ,-, ,N: -104.86 / 248
+ , , ,-, ,E: 382238.43 / 100165
+ , , ,-, ,S: -113.28 / 167
+ , , ,-, ,W: -143.27 / 100
+Take action E
+?| |?
+-| | 
+?| |?
+-, , , , ,N: -160.85 / 100
+-, , , , ,E: 377460.09 / 3717
+-, , , , ,S: -95.09 / 106
+-, , , , ,W: -94.52 / 123
+Take action E
+?|-|?
+ | | 
+?| |?
+ , ,-,X, ,N: -76.82 / 43
+ , ,-,X, ,E: -73.37 / 32
+ , ,-,X, ,S: 71932.79 / 60
+ , ,-,X, ,W: -63.19 / 39
+Take action S
+?| |?
+X| | 
+?|-|?
++,+,+,+,+,N: 641.34 / 100
++,+,+,+,+,E: 652.97 / 100
++,+,+,+,+,S: 652.07 / 100
++,+,+,+,+,W: 385120.83 / 95894
+Take action W
+?|+|?
++|+|+
+?|+|?
+ ,X,X, , ,N: -66.58 / 134
+ ,X,X, , ,E: -66.11 / 233
+ ,X,X, , ,S: -66.74 / 156
+ ,X,X, , ,W: -69.52 / 121
+Take action E
+?| |?
+ | |X
+?|X|?
+X, , , , ,N: -105.06 / 218
+X, , , , ,E: 386441.89 / 487334
+X, , , , ,S: -104.41 / 237
+X, , , , ,W: -104.83 / 264
+Take action E
+?|X|?
+ | | 
+?| |?
+ , , ,X, ,N: -103.94 / 631
+ , , ,X, ,E: 386638.53 / 100356
+ , , ,X, ,S: -103.00 / 242
+ , , ,X, ,W: -103.25 / 258
+Take action E
+?| |?
+X| | 
+?| |?
+-, ,X, , ,N: -123.41 / 100
+-, ,X, , ,E: -136.73 / 472
+-, ,X, , ,S: -107.90 / 223
+-, ,X, , ,W: 328725.36 / 960
+Take action W
+?|-|?
+ | | 
+?|X|?
+X,+,-, , ,N: 257.11 / 110
+X,+,-, , ,E: 385224.70 / 97576
+X,+,-, , ,S: 107.34 / 100
+X,+,-, , ,W: 247.74 / 100
+Take action E
+?|X|?
+ | |+
+?|-|?
+ , ,-, , ,N: -103.53 / 207
+ , ,-, , ,E: 386185.11 / 100774
+ , ,-, , ,S: -148.39 / 100
+ , ,-, , ,W: -108.42 / 173
+Take action E
+?| |?
+ | | 
+?|-|?
+-,X, , , ,N: -142.70 / 27
+-,X, , , ,E: -18.77 / 31
+-,X, , , ,S: -22.57 / 38
+-,X, , , ,W: -27.43 / 37
+Take action E
+?|-|?
+ | |X
+?| |?
+X,-,-,X, ,N: -22.19 / 2
+X,-,-,X, ,E: -68.73 / 1
+X,-,-,X, ,S: -32.99 / 1
+X,-,-,X, ,W: -1.00 / 1
+Take action W
+?|X|?
+X| |-
+?|-|?
+ , ,X,X, ,N: 385614.80 / 101470
+ , ,X,X, ,E: -107.78 / 631
+ , ,X,X, ,S: -107.50 / 306
+ , ,X,X, ,W: -107.46 / 306
+Take action N
+?| |?
+X| | 
+?|X|?
+ , , , , ,N: 386777.24 / 596345
+ , , , , ,E: -104.29 / 736
+ , , , , ,S: -104.35 / 839
+ , , , , ,W: -103.86 / 594
+Take action N
+?| |?
+ | | 
+?| |?
+ ,-, , , ,N: 383437.11 / 99187
+ ,-, , , ,E: -164.74 / 100
+ ,-, , , ,S: -100.77 / 128
+ ,-, , , ,W: -101.15 / 119
+Take action N
+?| |?
+ | |-
+?| |?
+21 states
+
