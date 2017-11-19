@@ -39,19 +39,23 @@ public class MyQLearner extends QLearner
         q = new MyHashMap<>(Double.valueOf(0));
         nsa = new Nsa();
     }
-    
+
+    /*
 	private String chooseAction(State current){
+    	
+		
 		double maxF = Double.NEGATIVE_INFINITY;
 		String optAction = "";
 		for (String action : current.actions()){
-			double thisF = explorationFunction(current, action);
+			double thisF = maxExplorationFunction(current, action);
 			if (thisF > maxF){
     			maxF = thisF;
     			optAction = action;
 			}
 		}
 		return optAction;
-	}
+		
+	}*/
 
     @Override
     protected double explorationFunction(State state, String action)
@@ -103,7 +107,7 @@ public class MyQLearner extends QLearner
         }
 		s = current;
 		r = percept.reward();
-		a = chooseAction(current);
+		a = maxExplorationAction(current, current.actions());
         return a;
     }
 
