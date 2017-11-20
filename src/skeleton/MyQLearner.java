@@ -4,6 +4,7 @@ import util.Percept;
 import util.QLearner;
 import util.State;
 import skeleton.MyState;
+//import skeleton.DetailState;
 import java.util.List;
 
 /**
@@ -84,7 +85,9 @@ public class MyQLearner extends QLearner
         List<String> actions = current.actions();
         if (s != null) {
             if (s.isTerminal()){
-                putValue(getQ(), s, "", percept.reward());
+                for (String action : actions){
+                    putValue(getQ(), s, action, percept.reward());
+                }
                 //q.put(s, "", percept.reward());
             }
 			addValue(getN(), s, a, 1.0);
