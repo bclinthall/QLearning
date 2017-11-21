@@ -54,11 +54,15 @@ public class MyQLearner extends QLearner
 		
 	}*/
 
+	double chance= 1.0/50.0;
     @Override
     protected double explorationFunction(State state, String action)
     {
-        if (value(getN(), state, action) < 100.0){
+        double val = value(getN(), state, action);
+        if (val < 100.0){
             return Double.POSITIVE_INFINITY;
+       // } else if (Math.random() < chance)//{
+       //     return Double.NEGATIVE_INFINITY;//
         } else {
 			return value(getQ(), state, action);
             //return q.get(state, action);
@@ -70,7 +74,8 @@ public class MyQLearner extends QLearner
     		visits += value(getN(), s, action);
 		}
 		
-		return 1.0 / (visits);
+		//return 90.0 / (99.0+visits) + 0.1;
+		return 1.0 / (1.0+visits);
 	}
 
     /**
@@ -80,24 +85,30 @@ public class MyQLearner extends QLearner
      *            the percept.
      * @return the desired action.
      */
+     List<String> actions = Arrays.asList(new String[]{"N","S","E","W"});
     public String play(Percept percept)
     {
 //        if(s != null && s.isTerminal()){
 //			newGame();
 //        }
         State current = getState(percept);
-        List<String> actions = current.actions();
+        //List<String> actions = current.actions();
 		double reward = percept.reward();
+        if (current.isTerminal()){
+            for (String action : actions){
+				putValue(getQ(), current, action, reward);
+            }
+        }
         if (s != null) {
 			addValue(getN(), s, a, 1.0);
-            double newQ = percept.gamma() * maxValue(current, actions) - value(getQ(), s, a);
-            newQ += reward;
-            newQ *= alpha(s, actions);
-            newQ += value(getQ(), s, a);
+            double newQ = percept.gamma() * maxValue(current, actions); //Utility at this state, discounted by one
+            newQ += r; 					 		//Plus reward at previous
+            newQ -= value(getQ(), s, a);		//Difference from old value
+            newQ *= alpha(s, actions);			//Take a percentage of that
+            newQ += value(getQ(), s, a);		//Add it to the old value
             putValue(getQ(), s, a, newQ);
         }
         if (current.isTerminal()){
-			putValue(getQ(), current, "N", reward);
 			return null;
         }
 		r = reward;

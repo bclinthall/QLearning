@@ -70,7 +70,7 @@ public class Game
      */
     public static void main(String[] args)
     {
-        final int NUM_TRIALS = 1_000_000;//1000000;
+        final int NUM_TRIALS = 1000;//1000000;
         final int DISPLAY_EVERY = 1000;
         String world =
             GridWorld.createRandomGridWorld(10, 10, 0, 2, 10, 1, 1.0, 1L);
