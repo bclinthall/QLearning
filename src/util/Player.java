@@ -29,6 +29,8 @@ public abstract class Player
         return "Player [name=" + name + "]";
     }
 
+	public void newGame(){}
+
     /**
      * Returns the desired action for the current state of the MDP.
      * 
@@ -37,4 +39,5 @@ public abstract class Player
      * @return the desired action.
      */
     public abstract String play(Percept percept);
+    
 }
