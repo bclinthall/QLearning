@@ -109,7 +109,7 @@ public abstract class QLearner extends Player
      *            the action.
      * @return map[state, action]
      */
-    protected double value(HashMap<State, HashMap<String, Double>> map,
+    public double value(HashMap<State, HashMap<String, Double>> map,
         State s, String a)
     {
         double v = 0.0;

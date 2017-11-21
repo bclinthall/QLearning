@@ -6,6 +6,7 @@ import util.State;
 import skeleton.MyState;
 import java.util.List;
 import java.util.Arrays;
+import java.util.HashMap;
 
 /**
  * An agent that uses value iteration to play the game.
@@ -81,33 +82,37 @@ public class MyQLearner extends QLearner
      */
     public String play(Percept percept)
     {
-        State current = new MyState(percept);
+//        if(s != null && s.isTerminal()){
+//			newGame();
+//        }
+        State current = getState(percept);
         List<String> actions = current.actions();
-        if (current.isTerminal()){
-    		for (String action : actions){
-    			putValue(getQ(), current, action, percept.reward());
-    		}
-			addValue(getN(), current, "N", 1.0);
-        }
+		double reward = percept.reward();
         if (s != null) {
-            if (s.isTerminal()){
-                // We've already updated utilities.  It only remains to update N.
-    			//addValue(getN(), s, a, 1.0);
-    			return "N";
-            }else{
-    			addValue(getN(), s, a, 1.0);
-    			//int newNsa x= nsa.increment(s, a);
-                double newQ = percept.gamma() * maxValue(current, actions) - value(getQ(), s, a);
-                newQ += percept.reward();
-                newQ *= alpha(s, actions);
-                newQ += value(getQ(), s, a);
-                putValue(getQ(), s, a, newQ);
-            }
+			addValue(getN(), s, a, 1.0);
+            double newQ = percept.gamma() * maxValue(current, actions) - value(getQ(), s, a);
+            newQ += reward;
+            newQ *= alpha(s, actions);
+            newQ += value(getQ(), s, a);
+            putValue(getQ(), s, a, newQ);
         }
+        if (current.isTerminal()){
+			putValue(getQ(), current, "N", reward);
+			return null;
+        }
+		r = reward;
+		a = maxExplorationAction(current, actions);
 		s = current;
-		r = percept.reward();
-		a = current.isTerminal() ? "N" : maxExplorationAction(current, current.actions());
         return a;
+    }
+    State getState(Percept percept){
+        return new MyState(percept);
+    }
+    @Override
+    public void newGame(){
+        s = null;
+        a = null;
+        r = Double.NEGATIVE_INFINITY;
     }
 
 }
