@@ -1,11 +1,11 @@
-package skeleton;
+package solution;
 
 import util.MarkovDecisionProcess;
 import util.State;
 import util.Percept;
 import util.GridCell;
 import util.GridWorld;
-import skeleton.MyQLearner;
+import solution.MyQLearner;
 
 import java.util.HashMap;
 import java.util.List;

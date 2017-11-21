@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
-import skeleton.MyState;
+import solution.MyState;
 
 /**
  * 
@@ -109,7 +109,7 @@ public abstract class QLearner extends Player
      *            the action.
      * @return map[state, action]
      */
-    public double value(HashMap<State, HashMap<String, Double>> map,
+    protected double value(HashMap<State, HashMap<String, Double>> map,
         State s, String a)
     {
         double v = 0.0;

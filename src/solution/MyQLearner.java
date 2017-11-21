@@ -1,9 +1,9 @@
-package skeleton;
+package solution;
 
 import util.Percept;
 import util.QLearner;
 import util.State;
-import skeleton.MyState;
+import solution.MyState;
 import java.util.List;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -93,7 +93,7 @@ public class MyQLearner extends QLearner
 //        }
         State current = getState(percept);
         //List<String> actions = current.actions();
-		double reward = percept.reward();
+		double reward = percept.current().reward();
         if (current.isTerminal()){
             for (String action : actions){
 				putValue(getQ(), current, action, reward);

@@ -1,24 +1,23 @@
-package skeleton;
+package solution;
 import java.util.Arrays;
 import util.State;
 import util.Percept;
 import util.GridCell;
-public class DetailState extends State{
+public class SmallDetailState extends State{
     private String[][] reducedNeighborhood = new String[Percept.NEIGHBORHOOD_SIZE][Percept.NEIGHBORHOOD_SIZE];
-
-    public DetailState(Percept p){
+	private int s = Percept.NEIGHBORHOOD_SIZE - 1;
+    public SmallDetailState(Percept p){
         super(p);
         GridCell[][] neighborhood = p.neighborhood();
-        int s = Percept.NEIGHBORHOOD_SIZE;
         for (int i=0; i<s; i++){
             for (int j=0; j<s; j++){
-                reducedNeighborhood[i][j] = getType(neighborhood[i][j]);
+                reducedNeighborhood[i][j] = getType(neighborhood[i+1][j+1]);
             }
         }
-        reducedNeighborhood[0][0] = "";
+        /*reducedNeighborhood[0][0] = "";
         reducedNeighborhood[0][s-1] = "";
         reducedNeighborhood[s-1][0] = "";
-        reducedNeighborhood[s-1][s-1] = "";
+        reducedNeighborhood[s-1][s-1] = "";*/
     }
     /**
      * Encode the type of a grid cell.
@@ -60,7 +59,6 @@ public class DetailState extends State{
 
     @Override
     public void display(){
-        int s = Percept.NEIGHBORHOOD_SIZE;
         for (int i=0; i<s; i++){
             for (int j=0; j<s; j++){
                 System.out.printf(reducedNeighborhood[i][j]);
@@ -71,7 +69,6 @@ public class DetailState extends State{
 
     @Override
     public String toString(){
-        int s = Percept.NEIGHBORHOOD_SIZE;
         String str = "";
         for (int i=0; i<s; i++){
             for (int j=0; j<s; j++){
@@ -101,7 +98,7 @@ public class DetailState extends State{
         if (getClass() != obj.getClass()){
             return false;
         }
-        DetailState other = (DetailState) obj;
+        SmallDetailState other = (SmallDetailState) obj;
         
         return Arrays.deepEquals(this.reducedNeighborhood, other.reducedNeighborhood);
     }

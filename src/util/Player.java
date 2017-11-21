@@ -22,8 +22,6 @@ public abstract class Player
     {
         this.name = name;
     }
-    public void newGame(){
-    }
 
     @Override
     public String toString()
