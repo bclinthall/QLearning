@@ -5,6 +5,7 @@ import util.QLearner;
 import util.State;
 import skeleton.MyState;
 import java.util.List;
+import java.util.Arrays;
 
 /**
  * An agent that uses value iteration to play the game.
@@ -68,7 +69,7 @@ public class MyQLearner extends QLearner
     		visits += value(getN(), s, action);
 		}
 		
-		return 1.0 / (visits );
+		return 1.0 / (visits);
 	}
 
     /**
@@ -82,22 +83,30 @@ public class MyQLearner extends QLearner
     {
         State current = new MyState(percept);
         List<String> actions = current.actions();
+        if (current.isTerminal()){
+    		for (String action : actions){
+    			putValue(getQ(), current, action, percept.reward());
+    		}
+			addValue(getN(), current, "N", 1.0);
+        }
         if (s != null) {
             if (s.isTerminal()){
-                putValue(getQ(), s, "", percept.reward());
-                //q.put(s, "", percept.reward());
+                // We've already updated utilities.  It only remains to update N.
+    			//addValue(getN(), s, a, 1.0);
+    			return "N";
+            }else{
+    			addValue(getN(), s, a, 1.0);
+    			//int newNsa x= nsa.increment(s, a);
+                double newQ = percept.gamma() * maxValue(current, actions) - value(getQ(), s, a);
+                newQ += percept.reward();
+                newQ *= alpha(s, actions);
+                newQ += value(getQ(), s, a);
+                putValue(getQ(), s, a, newQ);
             }
-			addValue(getN(), s, a, 1.0);
-			//int newNsa x= nsa.increment(s, a);
-            double newQ = percept.gamma() * maxValue(current, actions) - value(getQ(), s, a);
-            newQ += percept.reward();
-            newQ *= value(getN(), s, a) * alpha(s, actions);
-            newQ += value(getQ(), s, a);
-            putValue(getQ(), s, a, newQ);
         }
 		s = current;
 		r = percept.reward();
-		a = maxExplorationAction(current, current.actions());
+		a = current.isTerminal() ? "N" : maxExplorationAction(current, current.actions());
         return a;
     }
 
