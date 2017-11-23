@@ -1,7 +1,7 @@
 #https://ratiocaeli.com/blog/post/Makefile-for-Java-Projects
 JAVAC =	javac
 
-PACKAGES = skeleton util
+PACKAGES = solution util
 
 BIN	= ./bin/
 

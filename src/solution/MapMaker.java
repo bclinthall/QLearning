@@ -14,8 +14,9 @@ public class MapMaker{
     	List<GridCell> gridCells = mdp.getStates();
 		HashMap<GridCell, String> labels = new HashMap<>();
         for (GridCell gridCell : gridCells){
-            State state = qlearner.getState(new Percept(mdp, gridCell, 0.0));
-            List<String> actions = state.actions();
+            Percept percept = new Percept(mdp, gridCell, 0.0);
+            State state = qlearner.getState(percept);
+            List<String> actions = percept.actions();
             double maxVal = Double.NEGATIVE_INFINITY;
             String maxAction = "";
             for (String action : actions){

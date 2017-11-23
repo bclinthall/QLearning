@@ -4,6 +4,7 @@ import util.Percept;
 import util.QLearner;
 import util.State;
 import solution.MyState;
+import solution.SmallDetailState;
 import java.util.List;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -37,35 +38,15 @@ public class MyQLearner extends QLearner
         r = Double.NEGATIVE_INFINITY;
     }
 
-    /*
-	private String chooseAction(State current){
-    	
-		
-		double maxF = Double.NEGATIVE_INFINITY;
-		String optAction = "";
-		for (String action : current.actions()){
-			double thisF = maxExplorationFunction(current, action);
-			if (thisF > maxF){
-    			maxF = thisF;
-    			optAction = action;
-			}
-		}
-		return optAction;
-		
-	}*/
 
-	double chance= 1.0/50.0;
     @Override
     protected double explorationFunction(State state, String action)
     {
         double val = value(getN(), state, action);
         if (val < 100.0){
             return Double.POSITIVE_INFINITY;
-       // } else if (Math.random() < chance)//{
-       //     return Double.NEGATIVE_INFINITY;//
         } else {
 			return value(getQ(), state, action);
-            //return q.get(state, action);
         }
     }
 	public double alpha(State current, List<String> actions){
@@ -73,9 +54,7 @@ public class MyQLearner extends QLearner
 		for (String action : actions){
     		visits += value(getN(), s, action);
 		}
-		
-		//return 90.0 / (99.0+visits) + 0.1;
-		return 1.0 / (1.0+visits);
+		return 200.0 / (400+visits);
 	}
 
     /**
@@ -85,14 +64,13 @@ public class MyQLearner extends QLearner
      *            the percept.
      * @return the desired action.
      */
-     List<String> actions = Arrays.asList(new String[]{"N","S","E","W"});
     public String play(Percept percept)
     {
 //        if(s != null && s.isTerminal()){
 //			newGame();
 //        }
         State current = getState(percept);
-        //List<String> actions = current.actions();
+        List<String> actions = percept.actions();
 		double reward = percept.current().reward();
         if (current.isTerminal()){
             for (String action : actions){
@@ -101,7 +79,7 @@ public class MyQLearner extends QLearner
         }
         if (s != null) {
 			addValue(getN(), s, a, 1.0);
-            double newQ = percept.gamma() * maxValue(current, actions); //Utility at this state, discounted by one
+            double newQ = percept.gamma() * maxValue(current, actions); //Utility at this state, discounted once
             newQ += r; 					 		//Plus reward at previous
             newQ -= value(getQ(), s, a);		//Difference from old value
             newQ *= alpha(s, actions);			//Take a percentage of that
@@ -117,7 +95,7 @@ public class MyQLearner extends QLearner
         return a;
     }
     State getState(Percept percept){
-        return new MyState(percept);
+        return new SmallDetailState(percept);
     }
     @Override
     public void newGame(){

@@ -60,10 +60,10 @@ public class SmallDetailState extends State{
     @Override
     public void display(){
         for (int i=0; i<s; i++){
-            for (int j=0; j<s; j++){
-                System.out.printf(reducedNeighborhood[i][j]);
-            }
-            System.out.printf("\n");
+            //for (int j=0; j<s; j++){
+            //    System.out.printf(reducedNeighborhood[i][j]);
+            //}
+            System.out.println(String.join("|", reducedNeighborhood[i]));
         }
     }
 

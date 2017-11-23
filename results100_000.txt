@@ -1,0 +1,324 @@
+0.985481918809283
+0.007259040595358479
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |    100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |   -100|       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   XXXX|       |       |       |   -100|       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |   -100|       |       |       |       |       |       |       |   -100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   -100|   -100|       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |   -100|       |       |   -100|       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |   -100|       |       |   -100|       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|    :) |       |       |       |       |       |       |   XXXX|       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+
+			1.0%: Recent Average Score: -100.70
+			2.0%: Recent Average Score: -32.86
+			3.0%: Recent Average Score: -10.34
+			4.0%: Recent Average Score: 1.89
+			5.0%: Recent Average Score: 9.82
+			6.0%: Recent Average Score: 14.66
+			7.0%: Recent Average Score: 18.28
+			8.0%: Recent Average Score: 20.99
+			9.0%: Recent Average Score: 23.25
+			10.0%: Recent Average Score: 24.96
+			11.0%: Recent Average Score: 26.22
+			12.0%: Recent Average Score: 27.40
+			13.0%: Recent Average Score: 28.47
+			14.0%: Recent Average Score: 29.41
+			15.0%: Recent Average Score: 30.16
+			16.0%: Recent Average Score: 30.79
+			17.0%: Recent Average Score: 31.27
+			18.0%: Recent Average Score: 31.78
+			19.0%: Recent Average Score: 32.15
+			20.0%: Recent Average Score: 32.53
+			21.0%: Recent Average Score: 32.66
+			22.0%: Recent Average Score: 32.82
+			23.0%: Recent Average Score: 32.96
+			24.0%: Recent Average Score: 33.05
+			25.0%: Recent Average Score: 33.06
+			26.0%: Recent Average Score: 33.05
+			27.0%: Recent Average Score: 33.10
+			28.0%: Recent Average Score: 33.00
+			29.0%: Recent Average Score: 32.86
+			30.0%: Recent Average Score: 32.75
+			31.0%: Recent Average Score: 32.72
+			32.0%: Recent Average Score: 32.57
+			33.0%: Recent Average Score: 32.33
+			34.0%: Recent Average Score: 32.32
+			35.0%: Recent Average Score: 32.14
+			36.0%: Recent Average Score: 31.97
+			37.0%: Recent Average Score: 31.88
+			38.0%: Recent Average Score: 31.90
+			39.0%: Recent Average Score: 32.12
+			40.0%: Recent Average Score: 32.31
+			41.0%: Recent Average Score: 32.52
+			42.0%: Recent Average Score: 32.71
+			43.0%: Recent Average Score: 32.90
+			44.0%: Recent Average Score: 33.07
+			45.0%: Recent Average Score: 33.24
+			46.0%: Recent Average Score: 33.39
+			47.0%: Recent Average Score: 33.53
+			48.0%: Recent Average Score: 33.68
+			49.0%: Recent Average Score: 33.80
+			50.0%: Recent Average Score: 33.95
+			51.0%: Recent Average Score: 34.08
+			52.0%: Recent Average Score: 34.20
+			53.0%: Recent Average Score: 34.32
+			54.0%: Recent Average Score: 34.42
+			55.0%: Recent Average Score: 34.51
+			56.0%: Recent Average Score: 34.61
+			57.0%: Recent Average Score: 34.71
+			58.0%: Recent Average Score: 34.82
+			59.0%: Recent Average Score: 34.91
+			60.0%: Recent Average Score: 34.98
+			61.0%: Recent Average Score: 35.05
+			62.0%: Recent Average Score: 35.11
+			63.0%: Recent Average Score: 35.17
+			64.0%: Recent Average Score: 35.22
+			65.0%: Recent Average Score: 35.29
+			66.0%: Recent Average Score: 35.38
+			67.0%: Recent Average Score: 35.44
+			68.0%: Recent Average Score: 35.52
+			69.0%: Recent Average Score: 35.59
+			70.0%: Recent Average Score: 35.65
+			71.0%: Recent Average Score: 35.72
+			72.0%: Recent Average Score: 35.76
+			73.0%: Recent Average Score: 35.82
+			74.0%: Recent Average Score: 35.88
+			75.0%: Recent Average Score: 35.93
+			76.0%: Recent Average Score: 35.99
+			77.0%: Recent Average Score: 36.06
+			78.0%: Recent Average Score: 36.12
+			79.0%: Recent Average Score: 36.17
+			80.0%: Recent Average Score: 36.22
+			81.0%: Recent Average Score: 36.25
+			82.0%: Recent Average Score: 36.32
+			83.0%: Recent Average Score: 36.39
+			84.0%: Recent Average Score: 36.43
+			85.0%: Recent Average Score: 36.48
+			86.0%: Recent Average Score: 36.53
+			87.0%: Recent Average Score: 36.58
+			88.0%: Recent Average Score: 36.61
+			89.0%: Recent Average Score: 36.65
+			90.0%: Recent Average Score: 36.70
+			91.0%: Recent Average Score: 36.74
+			92.0%: Recent Average Score: 36.77
+			93.0%: Recent Average Score: 36.81
+			94.0%: Recent Average Score: 36.84
+			95.0%: Recent Average Score: 36.88
+			96.0%: Recent Average Score: 36.91
+			97.0%: Recent Average Score: 36.92
+			98.0%: Recent Average Score: 36.95
+			99.0%: Recent Average Score: 36.99
+			100.0%: Recent Average Score: 37.02
+ , ,X, , ,N: 49.57 / 1112
+ , ,X, , ,E: -26.97 / 147
+ , ,X, , ,S: -27.09 / 143
+ , ,X, , ,W: -27.10 / 115
+Take action N
+?| |?
+ | | 
+?|X|?
+-, , ,X, ,N: -93.43 / 100
+-, , ,X, ,E: -13.57 / 322
+-, , ,X, ,S: 8.60 / 1675
+-, , ,X, ,W: -13.68 / 226
+Take action S
+?|-|?
+X| | 
+?| |?
+ ,-, ,X, ,N: 45.30 / 100388
+ ,-, ,X, ,E: -99.25 / 100
+ ,-, ,X, ,S: -31.52 / 146
+ ,-, ,X, ,W: -31.46 / 145
+Take action N
+?| |?
+X| |-
+?| |?
+ ,X, , , ,N: -13.62 / 183
+ ,X, , , ,E: -20.24 / 100
+ ,X, , , ,S: -18.24 / 100
+ ,X, , , ,W: -23.50 / 100
+Take action N
+?| |?
+ | |X
+?| |?
+-,-,-,-,-,N: -100.00 / 0
+-,-,-,-,-,E: -100.00 / 0
+-,-,-,-,-,S: -100.00 / 0
+-,-,-,-,-,W: -100.00 / 0
+Take action N
+?|-|?
+-|-|-
+?|-|?
+X, , ,X, ,N: -8.10 / 21
+X, , ,X, ,E: -11.49 / 16
+X, , ,X, ,S: -23.12 / 19
+X, , ,X, ,W: -9.07 / 21
+Take action N
+?|X|?
+X| | 
+?| |?
+ , , ,-, ,N: -33.97 / 100
+ , , ,-, ,E: 50.80 / 100767
+ , , ,-, ,S: -29.19 / 100
+ , , ,-, ,W: -103.00 / 100
+Take action E
+?| |?
+-| | 
+?| |?
+-, , , , ,N: -101.46 / 100
+-, , , , ,E: 45.60 / 3052
+-, , , , ,S: -18.45 / 21523
+-, , , , ,W: -21.40 / 1838
+Take action E
+?|-|?
+ | | 
+?| |?
+ , ,-,X, ,N: 11.46 / 5
+ , ,-,X, ,E: 19.16 / 10
+ , ,-,X, ,S: -55.47 / 4
+ , ,-,X, ,W: -7.84 / 14
+Take action E
+?| |?
+X| | 
+?|-|?
++,+,+,+,+,N: 100.00 / 0
++,+,+,+,+,E: 100.00 / 0
++,+,+,+,+,S: 100.00 / 0
++,+,+,+,+,W: 100.00 / 0
+Take action N
+?|+|?
++|+|+
+?|+|?
+ ,X,X, , ,N: 4.65 / 41
+ ,X,X, , ,E: -6.43 / 38
+ ,X,X, , ,S: -6.35 / 35
+ ,X,X, , ,W: -10.81 / 41
+Take action N
+?| |?
+ | |X
+?|X|?
+X, , , , ,N: -21.29 / 100
+X, , , , ,E: 76.49 / 489221
+X, , , , ,S: -22.84 / 100
+X, , , , ,W: -18.70 / 100
+Take action E
+?|X|?
+ | | 
+?| |?
+ , , ,X, ,N: -26.20 / 284
+ , , ,X, ,E: 49.28 / 101411
+ , , ,X, ,S: -26.27 / 128
+ , , ,X, ,W: -26.21 / 138
+Take action E
+?| |?
+X| | 
+?| |?
+-, ,X, , ,N: -102.87 / 100
+-, ,X, , ,E: 45.81 / 1087
+-, ,X, , ,S: -29.93 / 154
+-, ,X, , ,W: -33.78 / 137
+Take action E
+?|-|?
+ | | 
+?|X|?
+X,+,-, , ,N: 57.33 / 231
+X,+,-, , ,E: 94.30 / 97624
+X,+,-, , ,S: -99.36 / 100
+X,+,-, , ,W: 57.52 / 155
+Take action E
+?|X|?
+ | |+
+?|-|?
+ , ,-, , ,N: -11.57 / 100
+ , ,-, , ,E: 52.25 / 100188
+ , ,-, , ,S: -100.56 / 100
+ , ,-, , ,W: -26.18 / 100
+Take action E
+?| |?
+ | | 
+?|-|?
+-,X, , , ,N: -100.61 / 27
+-,X, , , ,E: -8.90 / 18
+-,X, , , ,S: -15.29 / 22
+-,X, , , ,W: -23.44 / 24
+Take action E
+?|-|?
+ | |X
+?| |?
+X,-,-,X, ,N: 0.00 / 0
+X,-,-,X, ,E: -103.00 / 1
+X,-,-,X, ,S: -33.48 / 1
+X,-,-,X, ,W: -2.19 / 2
+Take action N
+?|X|?
+X| |-
+?|-|?
+ , ,X,X, ,N: 38.14 / 100552
+ , ,X,X, ,E: -32.61 / 503
+ , ,X,X, ,S: -32.49 / 164
+ , ,X,X, ,W: -32.52 / 161
+Take action N
+?| |?
+X| | 
+?|X|?
+ , , , , ,N: 54.75 / 620802
+ , , , , ,E: -26.41 / 543
+ , , , , ,S: -26.19 / 143
+ , , , , ,W: -26.28 / 233
+Take action N
+?| |?
+ | | 
+?| |?
+ ,X,-, , ,N: 0.00 / 0
+ ,X,-, , ,E: -3.00 / 1
+ ,X,-, , ,S: -56.65 / 1
+ ,X,-, , ,W: 0.00 / 0
+Take action N
+?| |?
+ | |X
+?|-|?
+ ,-, , , ,N: 50.71 / 98786
+ ,-, , , ,E: -102.63 / 100
+ ,-, , , ,S: 8.21 / 141
+ ,-, , , ,W: 8.24 / 2481
+Take action N
+?| |?
+ | |-
+?| |?
+22 states
+
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      n|      E|      E|      E|      E|      E|      E|      E|      E|    100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      N|      N|      N|      N|      E|      N|      N|      N|   -100|   nesw|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   XXXX|      e|      N|      N|   -100|      E|      N|      N|      E|     nw|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      n|   -100|      E|      N|      E|      N|      N|      N|      N|   -100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   -100|   -100|      E|      N|      E|      N|      N|      E|      N|      e|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      S|      E|      N|      N|   -100|      E|      N|   -100|      E|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      E|      N|      N|      N|      E|      N|      N|      E|      N|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      E|      E|      N|      N|      E|      N|      N|      N|      N|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      N|   -100|      E|      N|   -100|      E|      N|      N|      N|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      N|      E|      N|      N|      E|      N|      n|   XXXX|      N|      n|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+

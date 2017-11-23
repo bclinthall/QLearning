@@ -3,7 +3,7 @@ package util;
 import java.util.Scanner;
 
 import solution.MyQLearner;
-
+import solution.MapMaker;
 /**
  * The game class uses an MDP to explore a GridWorld.
  * 
@@ -97,5 +97,6 @@ public class Game
             }
         }
         player.displayStats(mdp);
+        MapMaker.displayMap(mdp, (MyQLearner) player);
     }
 }
