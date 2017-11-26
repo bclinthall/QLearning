@@ -23,6 +23,9 @@ public class MyQLearner extends QLearner
     private State s;  // previous state
     private String a; // previous action
     private double r; // previous reward
+	public double ALPHA_N = 15.0;
+	public double ALPHA_D = ALPHA_N - 1;
+	public double MIN_EXPLORE = 200.0;
 
     /**
      * The constructor takes the name.
@@ -36,6 +39,8 @@ public class MyQLearner extends QLearner
         s = null;
         a = null;
         r = Double.NEGATIVE_INFINITY;
+        System.out.printf("alpha: %f/(visits + %f)\n", ALPHA_N, ALPHA_D);
+        System.out.printf("min explore: %f\n", MIN_EXPLORE); 
     }
 
 
@@ -43,18 +48,14 @@ public class MyQLearner extends QLearner
     protected double explorationFunction(State state, String action)
     {
         double val = value(getN(), state, action);
-        if (val < 100.0){
+        if (val < MIN_EXPLORE){
             return Double.POSITIVE_INFINITY;
         } else {
 			return value(getQ(), state, action);
         }
     }
-	public double alpha(State current, List<String> actions){
-		double visits = 0.0;
-		for (String action : actions){
-    		visits += value(getN(), s, action);
-		}
-		return 200.0 / (400+visits);
+	public double alpha(State s, String a){
+		return ALPHA_N / (ALPHA_D+value(getN(), s, a));
 	}
 
     /**
@@ -82,7 +83,7 @@ public class MyQLearner extends QLearner
             double newQ = percept.gamma() * maxValue(current, actions); //Utility at this state, discounted once
             newQ += r; 					 		//Plus reward at previous
             newQ -= value(getQ(), s, a);		//Difference from old value
-            newQ *= alpha(s, actions);			//Take a percentage of that
+            newQ *= alpha(s, a);			//Take a percentage of that
             newQ += value(getQ(), s, a);		//Add it to the old value
             putValue(getQ(), s, a, newQ);
         }
@@ -95,7 +96,7 @@ public class MyQLearner extends QLearner
         return a;
     }
     State getState(Percept percept){
-        return new SmallDetailState(percept);
+        return new DetailState(percept);
     }
     @Override
     public void newGame(){

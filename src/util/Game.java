@@ -13,6 +13,7 @@ import solution.MapMaker;
  */
 public class Game
 {
+    static final int NUM_TRIALS = 1_000_000;
     private MarkovDecisionProcess mdp;
     private Player player;
 
@@ -70,8 +71,8 @@ public class Game
      */
     public static void main(String[] args)
     {
-        final int NUM_TRIALS = 100_000;
         final int DISPLAY_EVERY = 1000;
+		System.out.println("NUM_TRIALS: " + NUM_TRIALS);
         String world =
             GridWorld.createRandomGridWorld(10, 10, 0, 2, 10, 1, 1.0, 1L);
         MarkovDecisionProcess mdp =

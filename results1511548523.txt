@@ -1,0 +1,1235 @@
+NUM_TRIALS: 1000000
+0.985481918809283
+0.007259040595358479
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |    100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |   -100|       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   XXXX|       |       |       |   -100|       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |   -100|       |       |       |       |       |       |       |   -100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   -100|   -100|       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |   -100|       |       |   -100|       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |       |       |       |       |       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|       |   -100|       |       |   -100|       |       |       |       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|    :) |       |       |       |       |       |       |   XXXX|       |       |
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+
+alpha: 1.000000/(visits + 0.000000)
+min explore: 100.000000
+			0.1%: Recent Average Score: -552.33
+			0.2%: Recent Average Score: -406.01
+			0.3%: Recent Average Score: -282.48
+			0.4%: Recent Average Score: -218.89
+			0.5%: Recent Average Score: -179.81
+			0.6%: Recent Average Score: -154.91
+			0.7%: Recent Average Score: -136.60
+			0.8%: Recent Average Score: -121.83
+			0.9%: Recent Average Score: -111.16
+			1.0%: Recent Average Score: -102.12
+			1.1%: Recent Average Score: -95.07
+			1.2%: Recent Average Score: -89.08
+			1.3%: Recent Average Score: -84.04
+			1.4%: Recent Average Score: -79.05
+			1.5%: Recent Average Score: -75.11
+			1.6%: Recent Average Score: -71.36
+			1.7%: Recent Average Score: -67.45
+			1.8%: Recent Average Score: -64.35
+			1.9%: Recent Average Score: -61.86
+			2.0%: Recent Average Score: -59.47
+			2.1%: Recent Average Score: -57.08
+			2.2%: Recent Average Score: -54.90
+			2.3%: Recent Average Score: -53.15
+			2.4%: Recent Average Score: -51.26
+			2.5%: Recent Average Score: -49.79
+			2.6%: Recent Average Score: -47.99
+			2.7%: Recent Average Score: -47.09
+			2.8%: Recent Average Score: -46.08
+			2.9%: Recent Average Score: -45.66
+			3.0%: Recent Average Score: -45.15
+			3.1%: Recent Average Score: -44.46
+			3.2%: Recent Average Score: -44.02
+			3.3%: Recent Average Score: -43.46
+			3.4%: Recent Average Score: -42.65
+			3.5%: Recent Average Score: -42.30
+			3.6%: Recent Average Score: -41.45
+			3.7%: Recent Average Score: -40.41
+			3.8%: Recent Average Score: -39.92
+			3.9%: Recent Average Score: -39.75
+			4.0%: Recent Average Score: -38.90
+			4.1%: Recent Average Score: -38.91
+			4.2%: Recent Average Score: -38.58
+			4.3%: Recent Average Score: -39.06
+			4.4%: Recent Average Score: -39.11
+			4.5%: Recent Average Score: -38.61
+			4.6%: Recent Average Score: -38.46
+			4.7%: Recent Average Score: -38.18
+			4.8%: Recent Average Score: -37.82
+			4.9%: Recent Average Score: -37.48
+			5.0%: Recent Average Score: -37.07
+			5.1%: Recent Average Score: -36.46
+			5.2%: Recent Average Score: -36.31
+			5.3%: Recent Average Score: -35.75
+			5.4%: Recent Average Score: -35.79
+			5.5%: Recent Average Score: -35.37
+			5.6%: Recent Average Score: -35.47
+			5.7%: Recent Average Score: -35.64
+			5.8%: Recent Average Score: -35.45
+			5.9%: Recent Average Score: -35.08
+			6.0%: Recent Average Score: -34.70
+			6.1%: Recent Average Score: -34.66
+			6.2%: Recent Average Score: -34.54
+			6.3%: Recent Average Score: -34.62
+			6.4%: Recent Average Score: -34.59
+			6.5%: Recent Average Score: -34.29
+			6.6%: Recent Average Score: -33.88
+			6.7%: Recent Average Score: -33.76
+			6.8%: Recent Average Score: -33.63
+			6.9%: Recent Average Score: -33.74
+			7.0%: Recent Average Score: -33.89
+			7.1%: Recent Average Score: -33.57
+			7.2%: Recent Average Score: -33.15
+			7.3%: Recent Average Score: -33.05
+			7.4%: Recent Average Score: -33.04
+			7.5%: Recent Average Score: -33.22
+			7.6%: Recent Average Score: -32.84
+			7.7%: Recent Average Score: -32.65
+			7.8%: Recent Average Score: -32.40
+			7.9%: Recent Average Score: -32.86
+			8.0%: Recent Average Score: -32.78
+			8.1%: Recent Average Score: -32.60
+			8.2%: Recent Average Score: -32.54
+			8.3%: Recent Average Score: -32.31
+			8.4%: Recent Average Score: -32.55
+			8.5%: Recent Average Score: -32.41
+			8.6%: Recent Average Score: -32.33
+			8.7%: Recent Average Score: -32.31
+			8.8%: Recent Average Score: -32.42
+			8.9%: Recent Average Score: -32.40
+			9.0%: Recent Average Score: -32.19
+			9.1%: Recent Average Score: -32.11
+			9.2%: Recent Average Score: -31.97
+			9.3%: Recent Average Score: -32.06
+			9.4%: Recent Average Score: -31.97
+			9.5%: Recent Average Score: -32.09
+			9.6%: Recent Average Score: -31.74
+			9.7%: Recent Average Score: -31.85
+			9.8%: Recent Average Score: -31.75
+			9.9%: Recent Average Score: -31.90
+			10.0%: Recent Average Score: -31.71
+			10.1%: Recent Average Score: -31.67
+			10.2%: Recent Average Score: -31.77
+			10.3%: Recent Average Score: -31.73
+			10.4%: Recent Average Score: -31.77
+			10.5%: Recent Average Score: -31.70
+			10.6%: Recent Average Score: -31.53
+			10.7%: Recent Average Score: -31.40
+			10.8%: Recent Average Score: -31.38
+			10.9%: Recent Average Score: -31.39
+			11.0%: Recent Average Score: -31.25
+			11.1%: Recent Average Score: -31.18
+			11.2%: Recent Average Score: -31.12
+			11.3%: Recent Average Score: -31.04
+			11.4%: Recent Average Score: -31.09
+			11.5%: Recent Average Score: -31.07
+			11.6%: Recent Average Score: -30.95
+			11.7%: Recent Average Score: -30.99
+			11.8%: Recent Average Score: -30.83
+			11.9%: Recent Average Score: -30.95
+			12.0%: Recent Average Score: -30.78
+			12.1%: Recent Average Score: -30.75
+			12.2%: Recent Average Score: -30.72
+			12.3%: Recent Average Score: -30.81
+			12.4%: Recent Average Score: -30.92
+			12.5%: Recent Average Score: -30.75
+			12.6%: Recent Average Score: -30.49
+			12.7%: Recent Average Score: -30.44
+			12.8%: Recent Average Score: -30.44
+			12.9%: Recent Average Score: -30.32
+			13.0%: Recent Average Score: -30.47
+			13.1%: Recent Average Score: -30.22
+			13.2%: Recent Average Score: -30.23
+			13.3%: Recent Average Score: -30.27
+			13.4%: Recent Average Score: -30.36
+			13.5%: Recent Average Score: -30.54
+			13.6%: Recent Average Score: -30.65
+			13.7%: Recent Average Score: -30.57
+			13.8%: Recent Average Score: -30.51
+			13.9%: Recent Average Score: -30.36
+			14.0%: Recent Average Score: -30.19
+			14.1%: Recent Average Score: -30.14
+			14.2%: Recent Average Score: -30.27
+			14.3%: Recent Average Score: -30.24
+			14.4%: Recent Average Score: -30.07
+			14.5%: Recent Average Score: -29.96
+			14.6%: Recent Average Score: -29.73
+			14.7%: Recent Average Score: -29.72
+			14.8%: Recent Average Score: -29.96
+			14.9%: Recent Average Score: -29.82
+			15.0%: Recent Average Score: -29.84
+			15.1%: Recent Average Score: -29.87
+			15.2%: Recent Average Score: -29.79
+			15.3%: Recent Average Score: -29.73
+			15.4%: Recent Average Score: -29.50
+			15.5%: Recent Average Score: -29.44
+			15.6%: Recent Average Score: -29.67
+			15.7%: Recent Average Score: -29.67
+			15.8%: Recent Average Score: -29.72
+			15.9%: Recent Average Score: -29.73
+			16.0%: Recent Average Score: -29.73
+			16.1%: Recent Average Score: -29.70
+			16.2%: Recent Average Score: -29.64
+			16.3%: Recent Average Score: -29.60
+			16.4%: Recent Average Score: -29.48
+			16.5%: Recent Average Score: -29.49
+			16.6%: Recent Average Score: -29.36
+			16.7%: Recent Average Score: -29.31
+			16.8%: Recent Average Score: -29.41
+			16.9%: Recent Average Score: -29.47
+			17.0%: Recent Average Score: -29.37
+			17.1%: Recent Average Score: -29.24
+			17.2%: Recent Average Score: -29.36
+			17.3%: Recent Average Score: -29.41
+			17.4%: Recent Average Score: -29.28
+			17.5%: Recent Average Score: -29.20
+			17.6%: Recent Average Score: -29.17
+			17.7%: Recent Average Score: -29.28
+			17.8%: Recent Average Score: -29.17
+			17.9%: Recent Average Score: -29.16
+			18.0%: Recent Average Score: -29.20
+			18.1%: Recent Average Score: -29.18
+			18.2%: Recent Average Score: -29.10
+			18.3%: Recent Average Score: -29.24
+			18.4%: Recent Average Score: -29.20
+			18.5%: Recent Average Score: -29.15
+			18.6%: Recent Average Score: -29.09
+			18.7%: Recent Average Score: -28.88
+			18.8%: Recent Average Score: -28.86
+			18.9%: Recent Average Score: -29.16
+			19.0%: Recent Average Score: -29.16
+			19.1%: Recent Average Score: -29.23
+			19.2%: Recent Average Score: -29.14
+			19.3%: Recent Average Score: -28.97
+			19.4%: Recent Average Score: -29.01
+			19.5%: Recent Average Score: -28.98
+			19.6%: Recent Average Score: -29.07
+			19.7%: Recent Average Score: -29.00
+			19.8%: Recent Average Score: -29.03
+			19.9%: Recent Average Score: -29.03
+			20.0%: Recent Average Score: -28.85
+			20.1%: Recent Average Score: -28.75
+			20.2%: Recent Average Score: -28.73
+			20.3%: Recent Average Score: -28.67
+			20.4%: Recent Average Score: -28.56
+			20.5%: Recent Average Score: -28.56
+			20.6%: Recent Average Score: -28.57
+			20.7%: Recent Average Score: -28.72
+			20.8%: Recent Average Score: -28.78
+			20.9%: Recent Average Score: -28.73
+			21.0%: Recent Average Score: -28.64
+			21.1%: Recent Average Score: -28.66
+			21.2%: Recent Average Score: -28.74
+			21.3%: Recent Average Score: -28.79
+			21.4%: Recent Average Score: -28.69
+			21.5%: Recent Average Score: -28.53
+			21.6%: Recent Average Score: -28.69
+			21.7%: Recent Average Score: -28.61
+			21.8%: Recent Average Score: -28.68
+			21.9%: Recent Average Score: -28.54
+			22.0%: Recent Average Score: -28.54
+			22.1%: Recent Average Score: -28.57
+			22.2%: Recent Average Score: -28.59
+			22.3%: Recent Average Score: -28.67
+			22.4%: Recent Average Score: -28.65
+			22.5%: Recent Average Score: -28.72
+			22.6%: Recent Average Score: -28.64
+			22.7%: Recent Average Score: -28.75
+			22.8%: Recent Average Score: -28.71
+			22.9%: Recent Average Score: -28.66
+			23.0%: Recent Average Score: -28.68
+			23.1%: Recent Average Score: -28.57
+			23.2%: Recent Average Score: -28.46
+			23.3%: Recent Average Score: -28.40
+			23.4%: Recent Average Score: -28.43
+			23.5%: Recent Average Score: -28.35
+			23.6%: Recent Average Score: -28.28
+			23.7%: Recent Average Score: -28.42
+			23.8%: Recent Average Score: -28.43
+			23.9%: Recent Average Score: -28.48
+			24.0%: Recent Average Score: -28.48
+			24.1%: Recent Average Score: -28.43
+			24.2%: Recent Average Score: -28.45
+			24.3%: Recent Average Score: -28.39
+			24.4%: Recent Average Score: -28.32
+			24.5%: Recent Average Score: -28.30
+			24.6%: Recent Average Score: -28.36
+			24.7%: Recent Average Score: -28.41
+			24.8%: Recent Average Score: -28.31
+			24.9%: Recent Average Score: -28.37
+			25.0%: Recent Average Score: -28.30
+			25.1%: Recent Average Score: -28.28
+			25.2%: Recent Average Score: -28.22
+			25.3%: Recent Average Score: -28.21
+			25.4%: Recent Average Score: -28.10
+			25.5%: Recent Average Score: -28.11
+			25.6%: Recent Average Score: -28.22
+			25.7%: Recent Average Score: -28.28
+			25.8%: Recent Average Score: -28.33
+			25.9%: Recent Average Score: -28.34
+			26.0%: Recent Average Score: -28.45
+			26.1%: Recent Average Score: -28.39
+			26.2%: Recent Average Score: -28.45
+			26.3%: Recent Average Score: -28.48
+			26.4%: Recent Average Score: -28.42
+			26.5%: Recent Average Score: -28.40
+			26.6%: Recent Average Score: -28.41
+			26.7%: Recent Average Score: -28.48
+			26.8%: Recent Average Score: -28.52
+			26.9%: Recent Average Score: -28.46
+			27.0%: Recent Average Score: -28.44
+			27.1%: Recent Average Score: -28.46
+			27.2%: Recent Average Score: -28.62
+			27.3%: Recent Average Score: -28.60
+			27.4%: Recent Average Score: -28.62
+			27.5%: Recent Average Score: -28.54
+			27.6%: Recent Average Score: -28.50
+			27.7%: Recent Average Score: -28.41
+			27.8%: Recent Average Score: -28.42
+			27.9%: Recent Average Score: -28.46
+			28.0%: Recent Average Score: -28.42
+			28.1%: Recent Average Score: -28.43
+			28.2%: Recent Average Score: -28.49
+			28.3%: Recent Average Score: -28.53
+			28.4%: Recent Average Score: -28.48
+			28.5%: Recent Average Score: -28.50
+			28.6%: Recent Average Score: -28.52
+			28.7%: Recent Average Score: -28.56
+			28.8%: Recent Average Score: -28.51
+			28.9%: Recent Average Score: -28.46
+			29.0%: Recent Average Score: -28.53
+			29.1%: Recent Average Score: -28.53
+			29.2%: Recent Average Score: -28.56
+			29.3%: Recent Average Score: -28.45
+			29.4%: Recent Average Score: -28.56
+			29.5%: Recent Average Score: -28.47
+			29.6%: Recent Average Score: -28.41
+			29.7%: Recent Average Score: -28.37
+			29.8%: Recent Average Score: -28.26
+			29.9%: Recent Average Score: -28.29
+			30.0%: Recent Average Score: -28.33
+			30.1%: Recent Average Score: -28.35
+			30.2%: Recent Average Score: -28.28
+			30.3%: Recent Average Score: -28.32
+			30.4%: Recent Average Score: -28.30
+			30.5%: Recent Average Score: -28.34
+			30.6%: Recent Average Score: -28.41
+			30.7%: Recent Average Score: -28.45
+			30.8%: Recent Average Score: -28.42
+			30.9%: Recent Average Score: -28.52
+			31.0%: Recent Average Score: -28.46
+			31.1%: Recent Average Score: -28.39
+			31.2%: Recent Average Score: -28.35
+			31.3%: Recent Average Score: -28.34
+			31.4%: Recent Average Score: -28.28
+			31.5%: Recent Average Score: -28.32
+			31.6%: Recent Average Score: -28.36
+			31.7%: Recent Average Score: -28.32
+			31.8%: Recent Average Score: -28.23
+			31.9%: Recent Average Score: -28.17
+			32.0%: Recent Average Score: -28.16
+			32.1%: Recent Average Score: -28.17
+			32.2%: Recent Average Score: -28.13
+			32.3%: Recent Average Score: -28.13
+			32.4%: Recent Average Score: -28.10
+			32.5%: Recent Average Score: -28.12
+			32.6%: Recent Average Score: -28.23
+			32.7%: Recent Average Score: -28.19
+			32.8%: Recent Average Score: -28.14
+			32.9%: Recent Average Score: -28.17
+			33.0%: Recent Average Score: -28.20
+			33.1%: Recent Average Score: -28.18
+			33.2%: Recent Average Score: -28.14
+			33.3%: Recent Average Score: -28.13
+			33.4%: Recent Average Score: -28.20
+			33.5%: Recent Average Score: -28.12
+			33.6%: Recent Average Score: -28.06
+			33.7%: Recent Average Score: -27.98
+			33.8%: Recent Average Score: -27.98
+			33.9%: Recent Average Score: -27.93
+			34.0%: Recent Average Score: -27.92
+			34.1%: Recent Average Score: -27.87
+			34.2%: Recent Average Score: -27.84
+			34.3%: Recent Average Score: -27.80
+			34.4%: Recent Average Score: -27.78
+			34.5%: Recent Average Score: -27.76
+			34.6%: Recent Average Score: -27.78
+			34.7%: Recent Average Score: -27.77
+			34.8%: Recent Average Score: -27.79
+			34.9%: Recent Average Score: -27.84
+			35.0%: Recent Average Score: -27.79
+			35.1%: Recent Average Score: -27.80
+			35.2%: Recent Average Score: -27.84
+			35.3%: Recent Average Score: -27.80
+			35.4%: Recent Average Score: -27.88
+			35.5%: Recent Average Score: -27.87
+			35.6%: Recent Average Score: -27.99
+			35.7%: Recent Average Score: -27.97
+			35.8%: Recent Average Score: -27.97
+			35.9%: Recent Average Score: -27.94
+			36.0%: Recent Average Score: -27.97
+			36.1%: Recent Average Score: -28.01
+			36.2%: Recent Average Score: -28.00
+			36.3%: Recent Average Score: -28.02
+			36.4%: Recent Average Score: -27.99
+			36.5%: Recent Average Score: -27.96
+			36.6%: Recent Average Score: -27.95
+			36.7%: Recent Average Score: -27.93
+			36.8%: Recent Average Score: -27.89
+			36.9%: Recent Average Score: -27.93
+			37.0%: Recent Average Score: -27.93
+			37.1%: Recent Average Score: -27.94
+			37.2%: Recent Average Score: -27.91
+			37.3%: Recent Average Score: -27.90
+			37.4%: Recent Average Score: -27.86
+			37.5%: Recent Average Score: -27.79
+			37.6%: Recent Average Score: -27.87
+			37.7%: Recent Average Score: -27.88
+			37.8%: Recent Average Score: -27.86
+			37.9%: Recent Average Score: -27.87
+			38.0%: Recent Average Score: -27.87
+			38.1%: Recent Average Score: -27.89
+			38.2%: Recent Average Score: -27.87
+			38.3%: Recent Average Score: -27.83
+			38.4%: Recent Average Score: -27.74
+			38.5%: Recent Average Score: -27.82
+			38.6%: Recent Average Score: -27.85
+			38.7%: Recent Average Score: -27.82
+			38.8%: Recent Average Score: -27.86
+			38.9%: Recent Average Score: -27.87
+			39.0%: Recent Average Score: -27.86
+			39.1%: Recent Average Score: -27.77
+			39.2%: Recent Average Score: -27.76
+			39.3%: Recent Average Score: -27.76
+			39.4%: Recent Average Score: -27.71
+			39.5%: Recent Average Score: -27.71
+			39.6%: Recent Average Score: -27.71
+			39.7%: Recent Average Score: -27.76
+			39.8%: Recent Average Score: -27.74
+			39.9%: Recent Average Score: -27.77
+			40.0%: Recent Average Score: -27.72
+			40.1%: Recent Average Score: -27.64
+			40.2%: Recent Average Score: -27.74
+			40.3%: Recent Average Score: -27.68
+			40.4%: Recent Average Score: -27.71
+			40.5%: Recent Average Score: -27.63
+			40.6%: Recent Average Score: -27.83
+			40.7%: Recent Average Score: -27.83
+			40.8%: Recent Average Score: -27.78
+			40.9%: Recent Average Score: -27.82
+			41.0%: Recent Average Score: -27.76
+			41.1%: Recent Average Score: -27.74
+			41.2%: Recent Average Score: -27.76
+			41.3%: Recent Average Score: -27.74
+			41.4%: Recent Average Score: -27.73
+			41.5%: Recent Average Score: -27.71
+			41.6%: Recent Average Score: -27.73
+			41.7%: Recent Average Score: -27.75
+			41.8%: Recent Average Score: -27.76
+			41.9%: Recent Average Score: -27.77
+			42.0%: Recent Average Score: -27.81
+			42.1%: Recent Average Score: -27.80
+			42.2%: Recent Average Score: -27.77
+			42.3%: Recent Average Score: -27.86
+			42.4%: Recent Average Score: -27.85
+			42.5%: Recent Average Score: -27.80
+			42.6%: Recent Average Score: -27.81
+			42.7%: Recent Average Score: -27.70
+			42.8%: Recent Average Score: -27.66
+			42.9%: Recent Average Score: -27.69
+			43.0%: Recent Average Score: -27.59
+			43.1%: Recent Average Score: -27.62
+			43.2%: Recent Average Score: -27.61
+			43.3%: Recent Average Score: -27.57
+			43.4%: Recent Average Score: -27.53
+			43.5%: Recent Average Score: -27.52
+			43.6%: Recent Average Score: -27.60
+			43.7%: Recent Average Score: -27.59
+			43.8%: Recent Average Score: -27.62
+			43.9%: Recent Average Score: -27.58
+			44.0%: Recent Average Score: -27.57
+			44.1%: Recent Average Score: -27.67
+			44.2%: Recent Average Score: -27.67
+			44.3%: Recent Average Score: -27.66
+			44.4%: Recent Average Score: -27.65
+			44.5%: Recent Average Score: -27.63
+			44.6%: Recent Average Score: -27.69
+			44.7%: Recent Average Score: -27.69
+			44.8%: Recent Average Score: -27.72
+			44.9%: Recent Average Score: -27.70
+			45.0%: Recent Average Score: -27.68
+			45.1%: Recent Average Score: -27.63
+			45.2%: Recent Average Score: -27.64
+			45.3%: Recent Average Score: -27.63
+			45.4%: Recent Average Score: -27.66
+			45.5%: Recent Average Score: -27.59
+			45.6%: Recent Average Score: -27.57
+			45.7%: Recent Average Score: -27.56
+			45.8%: Recent Average Score: -27.60
+			45.9%: Recent Average Score: -27.58
+			46.0%: Recent Average Score: -27.58
+			46.1%: Recent Average Score: -27.65
+			46.2%: Recent Average Score: -27.69
+			46.3%: Recent Average Score: -27.65
+			46.4%: Recent Average Score: -27.92
+			46.5%: Recent Average Score: -27.93
+			46.6%: Recent Average Score: -27.87
+			46.7%: Recent Average Score: -27.86
+			46.8%: Recent Average Score: -27.80
+			46.9%: Recent Average Score: -27.81
+			47.0%: Recent Average Score: -27.78
+			47.1%: Recent Average Score: -27.85
+			47.2%: Recent Average Score: -27.84
+			47.3%: Recent Average Score: -27.94
+			47.4%: Recent Average Score: -27.88
+			47.5%: Recent Average Score: -27.86
+			47.6%: Recent Average Score: -27.86
+			47.7%: Recent Average Score: -27.83
+			47.8%: Recent Average Score: -27.86
+			47.9%: Recent Average Score: -27.82
+			48.0%: Recent Average Score: -27.82
+			48.1%: Recent Average Score: -27.87
+			48.2%: Recent Average Score: -27.88
+			48.3%: Recent Average Score: -27.87
+			48.4%: Recent Average Score: -27.88
+			48.5%: Recent Average Score: -27.89
+			48.6%: Recent Average Score: -27.86
+			48.7%: Recent Average Score: -27.84
+			48.8%: Recent Average Score: -27.82
+			48.9%: Recent Average Score: -27.82
+			49.0%: Recent Average Score: -27.79
+			49.1%: Recent Average Score: -27.74
+			49.2%: Recent Average Score: -27.74
+			49.3%: Recent Average Score: -27.67
+			49.4%: Recent Average Score: -27.66
+			49.5%: Recent Average Score: -27.70
+			49.6%: Recent Average Score: -27.66
+			49.7%: Recent Average Score: -27.62
+			49.8%: Recent Average Score: -27.64
+			49.9%: Recent Average Score: -27.66
+			50.0%: Recent Average Score: -27.77
+			50.1%: Recent Average Score: -27.77
+			50.2%: Recent Average Score: -27.77
+			50.3%: Recent Average Score: -27.77
+			50.4%: Recent Average Score: -27.84
+			50.5%: Recent Average Score: -27.86
+			50.6%: Recent Average Score: -27.85
+			50.7%: Recent Average Score: -27.94
+			50.8%: Recent Average Score: -27.99
+			50.9%: Recent Average Score: -27.98
+			51.0%: Recent Average Score: -28.01
+			51.1%: Recent Average Score: -27.99
+			51.2%: Recent Average Score: -27.95
+			51.3%: Recent Average Score: -27.91
+			51.4%: Recent Average Score: -27.93
+			51.5%: Recent Average Score: -27.88
+			51.6%: Recent Average Score: -27.82
+			51.7%: Recent Average Score: -27.81
+			51.8%: Recent Average Score: -27.80
+			51.9%: Recent Average Score: -27.82
+			52.0%: Recent Average Score: -27.78
+			52.1%: Recent Average Score: -27.73
+			52.2%: Recent Average Score: -27.71
+			52.3%: Recent Average Score: -27.81
+			52.4%: Recent Average Score: -27.80
+			52.5%: Recent Average Score: -27.79
+			52.6%: Recent Average Score: -27.77
+			52.7%: Recent Average Score: -27.77
+			52.8%: Recent Average Score: -27.80
+			52.9%: Recent Average Score: -27.78
+			53.0%: Recent Average Score: -27.74
+			53.1%: Recent Average Score: -27.73
+			53.2%: Recent Average Score: -27.72
+			53.3%: Recent Average Score: -27.72
+			53.4%: Recent Average Score: -27.71
+			53.5%: Recent Average Score: -27.77
+			53.6%: Recent Average Score: -27.74
+			53.7%: Recent Average Score: -27.77
+			53.8%: Recent Average Score: -27.84
+			53.9%: Recent Average Score: -27.87
+			54.0%: Recent Average Score: -27.83
+			54.1%: Recent Average Score: -27.80
+			54.2%: Recent Average Score: -27.80
+			54.3%: Recent Average Score: -27.85
+			54.4%: Recent Average Score: -27.84
+			54.5%: Recent Average Score: -27.85
+			54.6%: Recent Average Score: -27.80
+			54.7%: Recent Average Score: -27.85
+			54.8%: Recent Average Score: -27.84
+			54.9%: Recent Average Score: -27.81
+			55.0%: Recent Average Score: -27.83
+			55.1%: Recent Average Score: -27.87
+			55.2%: Recent Average Score: -27.87
+			55.3%: Recent Average Score: -27.86
+			55.4%: Recent Average Score: -27.85
+			55.5%: Recent Average Score: -27.83
+			55.6%: Recent Average Score: -27.82
+			55.7%: Recent Average Score: -27.77
+			55.8%: Recent Average Score: -27.76
+			55.9%: Recent Average Score: -27.75
+			56.0%: Recent Average Score: -27.75
+			56.1%: Recent Average Score: -27.74
+			56.2%: Recent Average Score: -27.71
+			56.3%: Recent Average Score: -27.79
+			56.4%: Recent Average Score: -27.74
+			56.5%: Recent Average Score: -27.73
+			56.6%: Recent Average Score: -27.75
+			56.7%: Recent Average Score: -27.72
+			56.8%: Recent Average Score: -27.70
+			56.9%: Recent Average Score: -27.68
+			57.0%: Recent Average Score: -27.68
+			57.1%: Recent Average Score: -27.67
+			57.2%: Recent Average Score: -27.67
+			57.3%: Recent Average Score: -27.66
+			57.4%: Recent Average Score: -27.74
+			57.5%: Recent Average Score: -27.72
+			57.6%: Recent Average Score: -27.71
+			57.7%: Recent Average Score: -27.71
+			57.8%: Recent Average Score: -27.74
+			57.9%: Recent Average Score: -27.76
+			58.0%: Recent Average Score: -27.82
+			58.1%: Recent Average Score: -27.82
+			58.2%: Recent Average Score: -27.81
+			58.3%: Recent Average Score: -27.78
+			58.4%: Recent Average Score: -27.78
+			58.5%: Recent Average Score: -27.76
+			58.6%: Recent Average Score: -27.73
+			58.7%: Recent Average Score: -27.70
+			58.8%: Recent Average Score: -27.67
+			58.9%: Recent Average Score: -27.66
+			59.0%: Recent Average Score: -27.66
+			59.1%: Recent Average Score: -27.67
+			59.2%: Recent Average Score: -27.68
+			59.3%: Recent Average Score: -27.67
+			59.4%: Recent Average Score: -27.63
+			59.5%: Recent Average Score: -27.64
+			59.6%: Recent Average Score: -27.63
+			59.7%: Recent Average Score: -27.62
+			59.8%: Recent Average Score: -27.61
+			59.9%: Recent Average Score: -27.63
+			60.0%: Recent Average Score: -27.65
+			60.1%: Recent Average Score: -27.68
+			60.2%: Recent Average Score: -27.69
+			60.3%: Recent Average Score: -27.72
+			60.4%: Recent Average Score: -27.69
+			60.5%: Recent Average Score: -27.68
+			60.6%: Recent Average Score: -27.67
+			60.7%: Recent Average Score: -27.70
+			60.8%: Recent Average Score: -27.69
+			60.9%: Recent Average Score: -27.71
+			61.0%: Recent Average Score: -27.67
+			61.1%: Recent Average Score: -27.67
+			61.2%: Recent Average Score: -27.66
+			61.3%: Recent Average Score: -27.63
+			61.4%: Recent Average Score: -27.65
+			61.5%: Recent Average Score: -27.67
+			61.6%: Recent Average Score: -27.66
+			61.7%: Recent Average Score: -27.66
+			61.8%: Recent Average Score: -27.65
+			61.9%: Recent Average Score: -27.66
+			62.0%: Recent Average Score: -27.64
+			62.1%: Recent Average Score: -27.61
+			62.2%: Recent Average Score: -27.58
+			62.3%: Recent Average Score: -27.59
+			62.4%: Recent Average Score: -27.61
+			62.5%: Recent Average Score: -27.57
+			62.6%: Recent Average Score: -27.58
+			62.7%: Recent Average Score: -27.56
+			62.8%: Recent Average Score: -27.54
+			62.9%: Recent Average Score: -27.61
+			63.0%: Recent Average Score: -27.62
+			63.1%: Recent Average Score: -27.61
+			63.2%: Recent Average Score: -27.62
+			63.3%: Recent Average Score: -27.68
+			63.4%: Recent Average Score: -27.65
+			63.5%: Recent Average Score: -27.65
+			63.6%: Recent Average Score: -27.64
+			63.7%: Recent Average Score: -27.66
+			63.8%: Recent Average Score: -27.63
+			63.9%: Recent Average Score: -27.63
+			64.0%: Recent Average Score: -27.60
+			64.1%: Recent Average Score: -27.59
+			64.2%: Recent Average Score: -27.58
+			64.3%: Recent Average Score: -27.67
+			64.4%: Recent Average Score: -27.69
+			64.5%: Recent Average Score: -27.68
+			64.6%: Recent Average Score: -27.67
+			64.7%: Recent Average Score: -27.70
+			64.8%: Recent Average Score: -27.70
+			64.9%: Recent Average Score: -27.67
+			65.0%: Recent Average Score: -27.70
+			65.1%: Recent Average Score: -27.73
+			65.2%: Recent Average Score: -27.73
+			65.3%: Recent Average Score: -27.73
+			65.4%: Recent Average Score: -27.76
+			65.5%: Recent Average Score: -27.74
+			65.6%: Recent Average Score: -27.73
+			65.7%: Recent Average Score: -27.73
+			65.8%: Recent Average Score: -27.76
+			65.9%: Recent Average Score: -27.78
+			66.0%: Recent Average Score: -27.74
+			66.1%: Recent Average Score: -27.79
+			66.2%: Recent Average Score: -27.80
+			66.3%: Recent Average Score: -27.79
+			66.4%: Recent Average Score: -27.80
+			66.5%: Recent Average Score: -27.76
+			66.6%: Recent Average Score: -27.76
+			66.7%: Recent Average Score: -27.79
+			66.8%: Recent Average Score: -27.78
+			66.9%: Recent Average Score: -27.78
+			67.0%: Recent Average Score: -27.79
+			67.1%: Recent Average Score: -27.76
+			67.2%: Recent Average Score: -27.76
+			67.3%: Recent Average Score: -27.75
+			67.4%: Recent Average Score: -27.76
+			67.5%: Recent Average Score: -27.79
+			67.6%: Recent Average Score: -27.81
+			67.7%: Recent Average Score: -27.81
+			67.8%: Recent Average Score: -27.79
+			67.9%: Recent Average Score: -27.79
+			68.0%: Recent Average Score: -27.80
+			68.1%: Recent Average Score: -27.81
+			68.2%: Recent Average Score: -27.81
+			68.3%: Recent Average Score: -27.78
+			68.4%: Recent Average Score: -27.80
+			68.5%: Recent Average Score: -27.83
+			68.6%: Recent Average Score: -27.79
+			68.7%: Recent Average Score: -27.78
+			68.8%: Recent Average Score: -27.80
+			68.9%: Recent Average Score: -27.76
+			69.0%: Recent Average Score: -27.75
+			69.1%: Recent Average Score: -27.78
+			69.2%: Recent Average Score: -27.82
+			69.3%: Recent Average Score: -27.84
+			69.4%: Recent Average Score: -27.86
+			69.5%: Recent Average Score: -27.86
+			69.6%: Recent Average Score: -27.86
+			69.7%: Recent Average Score: -27.91
+			69.8%: Recent Average Score: -27.91
+			69.9%: Recent Average Score: -27.88
+			70.0%: Recent Average Score: -27.85
+			70.1%: Recent Average Score: -27.87
+			70.2%: Recent Average Score: -27.88
+			70.3%: Recent Average Score: -27.86
+			70.4%: Recent Average Score: -27.83
+			70.5%: Recent Average Score: -27.87
+			70.6%: Recent Average Score: -27.84
+			70.7%: Recent Average Score: -27.83
+			70.8%: Recent Average Score: -27.82
+			70.9%: Recent Average Score: -27.80
+			71.0%: Recent Average Score: -27.78
+			71.1%: Recent Average Score: -27.81
+			71.2%: Recent Average Score: -27.82
+			71.3%: Recent Average Score: -27.84
+			71.4%: Recent Average Score: -27.88
+			71.5%: Recent Average Score: -27.86
+			71.6%: Recent Average Score: -27.87
+			71.7%: Recent Average Score: -27.87
+			71.8%: Recent Average Score: -27.83
+			71.9%: Recent Average Score: -27.81
+			72.0%: Recent Average Score: -27.84
+			72.1%: Recent Average Score: -27.81
+			72.2%: Recent Average Score: -27.79
+			72.3%: Recent Average Score: -27.78
+			72.4%: Recent Average Score: -27.77
+			72.5%: Recent Average Score: -27.75
+			72.6%: Recent Average Score: -27.76
+			72.7%: Recent Average Score: -27.74
+			72.8%: Recent Average Score: -27.76
+			72.9%: Recent Average Score: -27.73
+			73.0%: Recent Average Score: -27.76
+			73.1%: Recent Average Score: -27.76
+			73.2%: Recent Average Score: -27.79
+			73.3%: Recent Average Score: -27.87
+			73.4%: Recent Average Score: -27.84
+			73.5%: Recent Average Score: -27.84
+			73.6%: Recent Average Score: -27.86
+			73.7%: Recent Average Score: -27.88
+			73.8%: Recent Average Score: -27.88
+			73.9%: Recent Average Score: -27.85
+			74.0%: Recent Average Score: -27.82
+			74.1%: Recent Average Score: -27.83
+			74.2%: Recent Average Score: -27.91
+			74.3%: Recent Average Score: -27.92
+			74.4%: Recent Average Score: -27.92
+			74.5%: Recent Average Score: -27.90
+			74.6%: Recent Average Score: -27.96
+			74.7%: Recent Average Score: -27.93
+			74.8%: Recent Average Score: -27.91
+			74.9%: Recent Average Score: -27.90
+			75.0%: Recent Average Score: -27.90
+			75.1%: Recent Average Score: -27.87
+			75.2%: Recent Average Score: -27.89
+			75.3%: Recent Average Score: -27.91
+			75.4%: Recent Average Score: -27.87
+			75.5%: Recent Average Score: -27.89
+			75.6%: Recent Average Score: -27.87
+			75.7%: Recent Average Score: -27.88
+			75.8%: Recent Average Score: -27.89
+			75.9%: Recent Average Score: -27.97
+			76.0%: Recent Average Score: -27.94
+			76.1%: Recent Average Score: -27.92
+			76.2%: Recent Average Score: -27.93
+			76.3%: Recent Average Score: -27.94
+			76.4%: Recent Average Score: -27.99
+			76.5%: Recent Average Score: -27.99
+			76.6%: Recent Average Score: -27.98
+			76.7%: Recent Average Score: -28.00
+			76.8%: Recent Average Score: -27.98
+			76.9%: Recent Average Score: -28.06
+			77.0%: Recent Average Score: -28.09
+			77.1%: Recent Average Score: -28.08
+			77.2%: Recent Average Score: -28.08
+			77.3%: Recent Average Score: -28.07
+			77.4%: Recent Average Score: -28.06
+			77.5%: Recent Average Score: -28.05
+			77.6%: Recent Average Score: -28.07
+			77.7%: Recent Average Score: -28.05
+			77.8%: Recent Average Score: -28.05
+			77.9%: Recent Average Score: -28.04
+			78.0%: Recent Average Score: -28.04
+			78.1%: Recent Average Score: -28.07
+			78.2%: Recent Average Score: -28.06
+			78.3%: Recent Average Score: -28.06
+			78.4%: Recent Average Score: -28.05
+			78.5%: Recent Average Score: -28.02
+			78.6%: Recent Average Score: -28.01
+			78.7%: Recent Average Score: -27.97
+			78.8%: Recent Average Score: -27.96
+			78.9%: Recent Average Score: -27.98
+			79.0%: Recent Average Score: -28.01
+			79.1%: Recent Average Score: -28.01
+			79.2%: Recent Average Score: -28.04
+			79.3%: Recent Average Score: -28.13
+			79.4%: Recent Average Score: -28.15
+			79.5%: Recent Average Score: -28.15
+			79.6%: Recent Average Score: -28.14
+			79.7%: Recent Average Score: -28.13
+			79.8%: Recent Average Score: -28.09
+			79.9%: Recent Average Score: -28.07
+			80.0%: Recent Average Score: -28.16
+			80.1%: Recent Average Score: -28.13
+			80.2%: Recent Average Score: -28.11
+			80.3%: Recent Average Score: -28.07
+			80.4%: Recent Average Score: -28.08
+			80.5%: Recent Average Score: -28.10
+			80.6%: Recent Average Score: -28.07
+			80.7%: Recent Average Score: -28.07
+			80.8%: Recent Average Score: -28.03
+			80.9%: Recent Average Score: -28.01
+			81.0%: Recent Average Score: -28.00
+			81.1%: Recent Average Score: -28.00
+			81.2%: Recent Average Score: -27.95
+			81.3%: Recent Average Score: -27.93
+			81.4%: Recent Average Score: -27.92
+			81.5%: Recent Average Score: -27.91
+			81.6%: Recent Average Score: -27.90
+			81.7%: Recent Average Score: -27.90
+			81.8%: Recent Average Score: -27.87
+			81.9%: Recent Average Score: -27.93
+			82.0%: Recent Average Score: -27.91
+			82.1%: Recent Average Score: -27.88
+			82.2%: Recent Average Score: -27.89
+			82.3%: Recent Average Score: -27.88
+			82.4%: Recent Average Score: -27.89
+			82.5%: Recent Average Score: -27.92
+			82.6%: Recent Average Score: -27.97
+			82.7%: Recent Average Score: -27.98
+			82.8%: Recent Average Score: -27.95
+			82.9%: Recent Average Score: -27.95
+			83.0%: Recent Average Score: -27.98
+			83.1%: Recent Average Score: -27.97
+			83.2%: Recent Average Score: -27.95
+			83.3%: Recent Average Score: -27.99
+			83.4%: Recent Average Score: -28.02
+			83.5%: Recent Average Score: -28.00
+			83.6%: Recent Average Score: -28.03
+			83.7%: Recent Average Score: -28.03
+			83.8%: Recent Average Score: -28.03
+			83.9%: Recent Average Score: -28.03
+			84.0%: Recent Average Score: -28.04
+			84.1%: Recent Average Score: -28.05
+			84.2%: Recent Average Score: -28.05
+			84.3%: Recent Average Score: -28.02
+			84.4%: Recent Average Score: -28.03
+			84.5%: Recent Average Score: -28.01
+			84.6%: Recent Average Score: -28.01
+			84.7%: Recent Average Score: -28.04
+			84.8%: Recent Average Score: -28.02
+			84.9%: Recent Average Score: -28.03
+			85.0%: Recent Average Score: -28.06
+			85.1%: Recent Average Score: -28.04
+			85.2%: Recent Average Score: -28.03
+			85.3%: Recent Average Score: -28.02
+			85.4%: Recent Average Score: -28.01
+			85.5%: Recent Average Score: -27.99
+			85.6%: Recent Average Score: -27.97
+			85.7%: Recent Average Score: -28.00
+			85.8%: Recent Average Score: -28.02
+			85.9%: Recent Average Score: -28.02
+			86.0%: Recent Average Score: -28.01
+			86.1%: Recent Average Score: -28.01
+			86.2%: Recent Average Score: -28.02
+			86.3%: Recent Average Score: -28.03
+			86.4%: Recent Average Score: -28.05
+			86.5%: Recent Average Score: -28.01
+			86.6%: Recent Average Score: -28.03
+			86.7%: Recent Average Score: -28.08
+			86.8%: Recent Average Score: -28.08
+			86.9%: Recent Average Score: -28.06
+			87.0%: Recent Average Score: -28.03
+			87.1%: Recent Average Score: -28.04
+			87.2%: Recent Average Score: -28.01
+			87.3%: Recent Average Score: -28.02
+			87.4%: Recent Average Score: -28.08
+			87.5%: Recent Average Score: -28.10
+			87.6%: Recent Average Score: -28.12
+			87.7%: Recent Average Score: -28.12
+			87.8%: Recent Average Score: -28.10
+			87.9%: Recent Average Score: -28.09
+			88.0%: Recent Average Score: -28.05
+			88.1%: Recent Average Score: -28.05
+			88.2%: Recent Average Score: -28.02
+			88.3%: Recent Average Score: -28.03
+			88.4%: Recent Average Score: -28.01
+			88.5%: Recent Average Score: -28.03
+			88.6%: Recent Average Score: -28.03
+			88.7%: Recent Average Score: -28.01
+			88.8%: Recent Average Score: -27.99
+			88.9%: Recent Average Score: -27.98
+			89.0%: Recent Average Score: -28.00
+			89.1%: Recent Average Score: -28.00
+			89.2%: Recent Average Score: -28.01
+			89.3%: Recent Average Score: -28.02
+			89.4%: Recent Average Score: -28.03
+			89.5%: Recent Average Score: -27.99
+			89.6%: Recent Average Score: -27.97
+			89.7%: Recent Average Score: -27.96
+			89.8%: Recent Average Score: -27.93
+			89.9%: Recent Average Score: -27.90
+			90.0%: Recent Average Score: -27.91
+			90.1%: Recent Average Score: -27.91
+			90.2%: Recent Average Score: -27.88
+			90.3%: Recent Average Score: -27.88
+			90.4%: Recent Average Score: -27.84
+			90.5%: Recent Average Score: -27.82
+			90.6%: Recent Average Score: -27.84
+			90.7%: Recent Average Score: -27.87
+			90.8%: Recent Average Score: -27.88
+			90.9%: Recent Average Score: -27.91
+			91.0%: Recent Average Score: -27.93
+			91.1%: Recent Average Score: -27.93
+			91.2%: Recent Average Score: -27.92
+			91.3%: Recent Average Score: -27.90
+			91.4%: Recent Average Score: -27.92
+			91.5%: Recent Average Score: -27.88
+			91.6%: Recent Average Score: -27.90
+			91.7%: Recent Average Score: -27.89
+			91.8%: Recent Average Score: -27.92
+			91.9%: Recent Average Score: -27.90
+			92.0%: Recent Average Score: -27.88
+			92.1%: Recent Average Score: -27.94
+			92.2%: Recent Average Score: -27.93
+			92.3%: Recent Average Score: -27.94
+			92.4%: Recent Average Score: -27.96
+			92.5%: Recent Average Score: -27.96
+			92.6%: Recent Average Score: -27.95
+			92.7%: Recent Average Score: -27.96
+			92.8%: Recent Average Score: -27.93
+			92.9%: Recent Average Score: -27.94
+			93.0%: Recent Average Score: -27.97
+			93.1%: Recent Average Score: -28.00
+			93.2%: Recent Average Score: -27.97
+			93.3%: Recent Average Score: -27.98
+			93.4%: Recent Average Score: -28.02
+			93.5%: Recent Average Score: -28.04
+			93.6%: Recent Average Score: -28.02
+			93.7%: Recent Average Score: -28.03
+			93.8%: Recent Average Score: -28.05
+			93.9%: Recent Average Score: -28.03
+			94.0%: Recent Average Score: -28.04
+			94.1%: Recent Average Score: -28.01
+			94.2%: Recent Average Score: -27.98
+			94.3%: Recent Average Score: -27.98
+			94.4%: Recent Average Score: -27.97
+			94.5%: Recent Average Score: -27.96
+			94.6%: Recent Average Score: -27.97
+			94.7%: Recent Average Score: -27.97
+			94.8%: Recent Average Score: -28.02
+			94.9%: Recent Average Score: -28.01
+			95.0%: Recent Average Score: -28.07
+			95.1%: Recent Average Score: -28.04
+			95.2%: Recent Average Score: -28.02
+			95.3%: Recent Average Score: -28.03
+			95.4%: Recent Average Score: -28.06
+			95.5%: Recent Average Score: -28.10
+			95.6%: Recent Average Score: -28.10
+			95.7%: Recent Average Score: -28.10
+			95.8%: Recent Average Score: -28.13
+			95.9%: Recent Average Score: -28.16
+			96.0%: Recent Average Score: -28.14
+			96.1%: Recent Average Score: -28.12
+			96.2%: Recent Average Score: -28.10
+			96.3%: Recent Average Score: -28.07
+			96.4%: Recent Average Score: -28.06
+			96.5%: Recent Average Score: -28.07
+			96.6%: Recent Average Score: -28.08
+			96.7%: Recent Average Score: -28.07
+			96.8%: Recent Average Score: -28.09
+			96.9%: Recent Average Score: -28.08
+			97.0%: Recent Average Score: -28.07
+			97.1%: Recent Average Score: -28.07
+			97.2%: Recent Average Score: -28.05
+			97.3%: Recent Average Score: -28.05
+			97.4%: Recent Average Score: -28.08
+			97.5%: Recent Average Score: -28.07
+			97.6%: Recent Average Score: -28.04
+			97.7%: Recent Average Score: -28.03
+			97.8%: Recent Average Score: -28.05
+			97.9%: Recent Average Score: -28.03
+			98.0%: Recent Average Score: -28.01
+			98.1%: Recent Average Score: -28.03
+			98.2%: Recent Average Score: -28.06
+			98.3%: Recent Average Score: -28.06
+			98.4%: Recent Average Score: -28.02
+			98.5%: Recent Average Score: -28.01
+			98.6%: Recent Average Score: -27.99
+			98.7%: Recent Average Score: -27.99
+			98.8%: Recent Average Score: -27.97
+			98.9%: Recent Average Score: -27.98
+			99.0%: Recent Average Score: -27.96
+			99.1%: Recent Average Score: -27.94
+			99.2%: Recent Average Score: -27.98
+			99.3%: Recent Average Score: -27.98
+			99.4%: Recent Average Score: -27.98
+			99.5%: Recent Average Score: -28.03
+			99.6%: Recent Average Score: -28.02
+			99.7%: Recent Average Score: -28.03
+			99.8%: Recent Average Score: -28.01
+			99.9%: Recent Average Score: -27.98
+			100.0%: Recent Average Score: -28.01
+ , ,X, , ,N: -10.58 / 530402
+ , ,X, , ,E: -10.58 / 568000
+ , ,X, , ,S: -10.58 / 569159
+ , ,X, , ,W: -10.58 / 529285
+Take action E
+?| |?
+ | | 
+?|X|?
+-, , ,X, ,N: -66.99 / 100
+-, , ,X, ,E: -10.95 / 60933
+-, , ,X, ,S: -10.95 / 96833
+-, , ,X, ,W: -10.95 / 50639
+Take action W
+?|-|?
+X| | 
+?| |?
+ ,-, ,X, ,N: -11.79 / 647441
+ ,-, ,X, ,E: -67.90 / 100
+ ,-, ,X, ,S: -11.79 / 402450
+ ,-, ,X, ,W: -11.79 / 372853
+Take action N
+?| |?
+X| |-
+?| |?
+ ,X, , , ,N: -5.82 / 2064
+ ,X, , , ,E: -5.82 / 2033
+ ,X, , , ,S: -5.82 / 1891
+ ,X, , , ,W: -6.89 / 100
+Take action N
+?| |?
+ | |X
+?| |?
+-,-,-,-,-,N: -100.00 / 0
+-,-,-,-,-,E: -100.00 / 0
+-,-,-,-,-,S: -100.00 / 0
+-,-,-,-,-,W: -100.00 / 0
+Take action N
+?|-|?
+-|-|-
+?|-|?
+X, , ,X, ,N: -2.83 / 54
+X, , ,X, ,E: -3.01 / 56
+X, , ,X, ,S: -5.26 / 55
+X, , ,X, ,W: -2.13 / 56
+Take action W
+?|X|?
+X| | 
+?| |?
+ , , ,-, ,N: -10.35 / 182060
+ , , ,-, ,E: -10.35 / 857467
+ , , ,-, ,S: -10.35 / 1894928
+ , , ,-, ,W: -102.32 / 100
+Take action E
+?| |?
+-| | 
+?| |?
+-, , , , ,N: -77.70 / 100
+-, , , , ,E: -9.60 / 501947
+-, , , , ,S: -9.60 / 4637180
+-, , , , ,W: -9.60 / 94239
+Take action E
+?|-|?
+ | | 
+?| |?
+ , ,-,X, ,N: -7.75 / 100
+ , ,-,X, ,E: -7.68 / 324
+ , ,-,X, ,S: -66.58 / 100
+ , ,-,X, ,W: -7.69 / 672
+Take action E
+?| |?
+X| | 
+?|-|?
++,+,+,+,+,N: 100.00 / 0
++,+,+,+,+,E: 100.00 / 0
++,+,+,+,+,S: 100.00 / 0
++,+,+,+,+,W: 100.00 / 0
+Take action N
+?|+|?
++|+|+
+?|+|?
+ ,X,X, , ,N: -6.63 / 709
+ ,X,X, , ,E: -6.63 / 1331
+ ,X,X, , ,S: -6.63 / 1399
+ ,X,X, , ,W: -6.63 / 493
+Take action S
+?| |?
+ | |X
+?|X|?
+X, , , , ,N: -3.10 / 167
+X, , , , ,E: 61.51 / 4800284
+X, , , , ,S: -6.96 / 100
+X, , , , ,W: -3.53 / 100
+Take action E
+?|X|?
+ | | 
+?| |?
+ , , ,X, ,N: -9.60 / 296018
+ , , ,X, ,E: -9.60 / 652455
+ , , ,X, ,S: -9.60 / 247420
+ , , ,X, ,W: -9.60 / 305350
+Take action N
+?| |?
+X| | 
+?| |?
+-, ,X, , ,N: -103.00 / 100
+-, ,X, , ,E: -11.90 / 564018
+-, ,X, , ,S: -11.90 / 466786
+-, ,X, , ,W: -11.90 / 506831
+Take action S
+?|-|?
+ | | 
+?|X|?
+X,+,-, , ,N: 27.64 / 100
+X,+,-, , ,E: 95.50 / 957438
+X,+,-, , ,S: -84.58 / 100
+X,+,-, , ,W: -3.17 / 100
+Take action E
+?|X|?
+ | |+
+?|-|?
+ , ,-, , ,N: -7.91 / 468056
+ , ,-, , ,E: -8.22 / 3043
+ , ,-, , ,S: -74.53 / 100
+ , ,-, , ,W: -8.23 / 4035
+Take action N
+?| |?
+ | | 
+?|-|?
+-,X, , , ,N: -84.16 / 78
+-,X, , , ,E: -3.81 / 63
+-,X, , , ,S: -5.87 / 71
+-,X, , , ,W: -8.13 / 64
+Take action E
+?|-|?
+ | |X
+?| |?
+X,-,-,X, ,N: -6.06 / 28
+X,-,-,X, ,E: -103.00 / 25
+X,-,-,X, ,S: -57.45 / 23
+X,-,-,X, ,W: -3.72 / 24
+Take action W
+?|X|?
+X| |-
+?|-|?
+ , ,X,X, ,N: -10.98 / 946231
+ , ,X,X, ,E: -10.98 / 943754
+ , ,X,X, ,S: -10.98 / 1223139
+ , ,X,X, ,W: -10.98 / 1223079
+Take action S
+?| |?
+X| | 
+?|X|?
+ , , , , ,N: -6.65 / 11392577
+ , , , , ,E: -7.90 / 44462
+ , , , , ,S: -7.90 / 44123
+ , , , , ,W: -7.90 / 44811
+Take action N
+?| |?
+ | | 
+?| |?
+ ,X,-, , ,N: 32.80 / 43
+ ,X,-, , ,E: 9.38 / 38
+ ,X,-, , ,S: -29.22 / 22
+ ,X,-, , ,W: -9.54 / 33
+Take action N
+?| |?
+ | |X
+?|-|?
+ ,-, , , ,N: -10.01 / 1726294
+ ,-, , , ,E: -85.42 / 100
+ ,-, , , ,S: -10.38 / 100
+ ,-, , , ,W: -10.01 / 36029
+Take action N
+?| |?
+ | |-
+?| |?
++,X, ,-, ,N: 63.90 / 11
++,X, ,-, ,E: 33.76 / 14
++,X, ,-, ,S: 3.85 / 15
++,X, ,-, ,W: -103.00 / 14
+Take action N
+?|+|?
+-| |X
+?| |?
+23 states
+
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      w|      E|      E|      E|      E|      E|      E|      E|      E|    100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      S|      N|      N|      N|      N|      N|      N|      N|   -100|      n|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   XXXX|      E|      N|      N|   -100|      E|      N|      N|      E|      n|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      w|   -100|      E|      N|      E|      N|      N|      N|      N|   -100|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|   -100|   -100|      E|      N|      N|      N|      N|      N|      N|      e|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      W|      E|      N|      N|   -100|      E|      N|   -100|      E|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      N|      N|      N|      N|      E|      N|      N|      E|      N|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      N|      N|      N|      N|      N|      N|      N|      N|      N|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      N|   -100|      E|      N|   -100|      E|      N|      E|      N|      N|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+|      S|      S|      E|      E|      S|      E|      S|   XXXX|      S|      S|
+|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+

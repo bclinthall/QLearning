@@ -4,8 +4,8 @@ import util.State;
 import util.Percept;
 import util.GridCell;
 public class SmallDetailState extends State{
-    private String[][] reducedNeighborhood = new String[Percept.NEIGHBORHOOD_SIZE][Percept.NEIGHBORHOOD_SIZE];
-	private int s = Percept.NEIGHBORHOOD_SIZE - 1;
+	private int s = Percept.NEIGHBORHOOD_SIZE - 2;
+    private String[][] reducedNeighborhood = new String[s][s];
     public SmallDetailState(Percept p){
         super(p);
         GridCell[][] neighborhood = p.neighborhood();
@@ -60,10 +60,11 @@ public class SmallDetailState extends State{
     @Override
     public void display(){
         for (int i=0; i<s; i++){
-            //for (int j=0; j<s; j++){
-            //    System.out.printf(reducedNeighborhood[i][j]);
-            //}
-            System.out.println(String.join("|", reducedNeighborhood[i]));
+            for (int j=0; j<s; j++){
+                System.out.printf(reducedNeighborhood[i][j] + "|");
+            }
+            System.out.println();
+            //System.out.println(String.join("|", reducedNeighborhood[i]));
         }
     }
 
